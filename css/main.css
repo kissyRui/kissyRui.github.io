@@ -1085,7 +1085,7 @@ pre .javascript .function {
   visibility: visible;
 }
 .posts-expand .post-body ul li {
-  list-style: circle;
+  list-style: square;
 }
 .posts-expand .post-body img {
   box-sizing: border-box;
