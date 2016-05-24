@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-23T16:32:32.000Z</updated>
+  <updated>2016-05-24T02:28:41.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2016/05/14/My-New-Post/"/>
     <id>http://yoursite.com/2016/05/14/My-New-Post/</id>
     <published>2016-05-14T15:54:47.000Z</published>
-    <updated>2016-05-23T16:32:32.000Z</updated>
+    <updated>2016-05-24T02:28:41.000Z</updated>
     
     <content type="html">&lt;blockquote&gt;
 &lt;p&gt;Think Different, Do Great&lt;/p&gt;
@@ -66,8 +66,8 @@
 &lt;ul&gt;
 &lt;li&gt;先是后台管理采用了requirejs的改进，大大提升了使用体验。&lt;/li&gt;
 &lt;li&gt;H5移动触屏版（将来的App版本），面对自己熟悉的框架，我选择了没有接触过的Reactjs+Flux，还有新认识的朋友Webpack；这个项目做下来感觉还是很花精力的，不过对于Store的处理，个人还是觉得Flux做得不到位，后来又改成了Redux框架。&lt;/li&gt;
-&lt;li&gt;主站要全面改版，本来要选择采用Angularjs，可惜人家要支持IE7 、8的。所以就去玩了百度团队的FIS，采用了commonjs的方式来写浏览器代码，对于这次架构和各个模块的处理，觉得还是比较满意的。&lt;/li&gt;
-&lt;li&gt;搞了几次特别的用户活动。&lt;/li&gt;
+&lt;li&gt;主站要全面改版，当时遇到了百度团队的FIS，采用了commonjs的方式来写浏览器代码，对于这次架构和各个模块的处理，觉得还是比较满意的。&lt;/li&gt;
+&lt;li&gt;搞了几次特别的活动。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;2015年8月9日［盛大游戏］&quot;&gt;&lt;a href=&quot;#2015年8月9日［盛大游戏］&quot; class=&quot;headerlink&quot; title=&quot;2015年8月9日［盛大游戏］&quot;&gt;&lt;/a&gt;2015年8月9日［盛大游戏］&lt;/h2&gt;&lt;p&gt;我又回到了盛大游戏，内心倍感温暖！&lt;br&gt;完成了一系列站点的响应式改造，由于现在比较流行采用Commonjs的规范，所以整体都采用这个，就像写Nodejs一样写浏览器端代码。&lt;/p&gt;
 &lt;ul&gt;
@@ -78,10 +78,10 @@
 &lt;li&gt;盛大游戏WEB版&lt;a href=&quot;http://login.sdo.com/sdo/Login/LoginSDO.php?appId=991002500&amp;amp;areaId=1&amp;amp;service=http%3A%2F%2Fi.sdo.com%2F%23routeto%3Dinfo&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;登录&lt;/a&gt;、&lt;a href=&quot;http://register.sdo.com/register/index?appId=89&amp;amp;cssId=ff&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;注册&lt;/a&gt;改版&lt;/li&gt;
 &lt;li&gt;参与了&lt;a href=&quot;http://www.shandagames.com/web/index.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;盛大游戏官网&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;游戏详情页如&lt;a href=&quot;http://www.sdo.com/gameDetail?appid=991000801&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;血族&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;手游的头部导航条如&lt;a href=&quot;http://blood.sdo.com/web2/index/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;血族&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;开发了微信账号管理和角色管理项目，升级了we为Mobile We。&lt;br&gt;正在进行时…&lt;/li&gt;
+&lt;li&gt;手游的头部Pc和移动导航条如&lt;a href=&quot;http://blood.sdo.com/web2/index/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;血族&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;开发了微信账号管理和角色管理项目，升级了we为Mobile We（简单介绍下Mobile We的角色管理）&lt;br&gt;正在进行时…&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;最近在研究React Native，希望能够用在某些产品上。&lt;br&gt;做前端这么多年，说实话很喜欢，这里充满变化，充满惊喜，充满挑战&lt;br&gt;现在大多数公司又比较重视用户体验&lt;br&gt;自己能做的就是不断学习，跟得上技术更新的潮流，最最重要的是要学有所用才能真才实学。&lt;br&gt;如何成为优秀的前端呢？其实我有个比较好的前端朋友-&lt;a href=&quot;https://100offer.com/blog/posts/138&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;寸志&lt;/a&gt;，可以了解下他。&lt;br&gt;谢谢大家！&lt;/p&gt;
+&lt;p&gt;最近在研究React Native，希望能够用在公司产品上&lt;br&gt;做前端这么多年，说实话很喜欢，这里充满变化，充满惊喜，充满挑战&lt;br&gt;现在大多数公司又比较重视用户体验&lt;br&gt;自己能做的就是不断学习，跟得上技术更新的潮流，最最重要的是要学有所用才能真才实学。&lt;br&gt;如何成为优秀的前端呢？其实我有个比较好的前端朋友-&lt;a href=&quot;https://100offer.com/blog/posts/138&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;寸志&lt;/a&gt;，可以了解下他。&lt;br&gt;谢谢大家！&lt;/p&gt;
 </content>
     
     <summary type="html">
