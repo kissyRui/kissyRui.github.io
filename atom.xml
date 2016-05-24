@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>kissy小鬼的精神家园</title>
+  <title>亮说</title>
   <subtitle>生活不只是眼前的苟且，还有诗和远方。</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-24T02:28:41.000Z</updated>
+  <updated>2016-05-24T02:45:06.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>亮说－五年前端</title>
+    <title>做前端，已五年</title>
     <link href="http://yoursite.com/2016/05/14/My-New-Post/"/>
     <id>http://yoursite.com/2016/05/14/My-New-Post/</id>
     <published>2016-05-14T15:54:47.000Z</published>
-    <updated>2016-05-24T02:28:41.000Z</updated>
+    <updated>2016-05-24T02:45:06.000Z</updated>
     
     <content type="html">&lt;blockquote&gt;
 &lt;p&gt;Think Different, Do Great&lt;/p&gt;
@@ -29,12 +29,12 @@
 &lt;h2 id=&quot;2011年5月20日［喜团网］&quot;&gt;&lt;a href=&quot;#2011年5月20日［喜团网］&quot; class=&quot;headerlink&quot; title=&quot;2011年5月20日［喜团网］&quot;&gt;&lt;/a&gt;2011年5月20日［喜团网］&lt;/h2&gt;&lt;p&gt;对我来说，这是一个不同寻常的日子。我入职了一家叫&lt;a href=&quot;http://sh.xituan.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;喜团网&lt;/a&gt;的团购网站，当时正是千团大战时，当时前端开发岗位也略热。&lt;br&gt;遇到了淘宝前端大牛玉伯开发的&lt;a href=&quot;http://docs.kissyui.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;kissy&lt;/a&gt;框架，该框架第一次让我认识到前端也可以有封装良好的UI和业务组件。&lt;br&gt;当时遇到了两个前端前辈黄兄和虫哥，并受益匪浅。&lt;br&gt;三个月后，团购网站激烈的竞争导致喜团资金链出问题，大家频频离职：黄兄去了淘宝网，虫哥去了支付宝。我经过黄兄介绍，让我去点评网试试。&lt;/p&gt;
 &lt;h2 id=&quot;2011年11月1日［大众点评］&quot;&gt;&lt;a href=&quot;#2011年11月1日［大众点评］&quot; class=&quot;headerlink&quot; title=&quot;2011年11月1日［大众点评］&quot;&gt;&lt;/a&gt;2011年11月1日［大众点评］&lt;/h2&gt;&lt;p&gt;这天入职大众点评网，开始了近两年的前端光阴。&lt;br&gt;当时的点评产品分为两个线：主站和点评团购，APP还是九宫格。&lt;br&gt;这是一个仅有9个前端攻城狮的O2O公司，团购业务只有2个前端来负责跟进迭代，由于团购的激烈竞争，点评也加大了团购产品的投入，所以我被分配到了团购前端小组。&lt;br&gt;当时团购用的框架是&lt;a href=&quot;http://mootools.net/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Mootools&lt;/a&gt;，一个产品最初的前端框架都是很仓促的，一般是根据执行者对框架的熟悉程度定的。Mootools是一个不错的库，代码质量很不错，写起来很有原生的感觉。&lt;br&gt;点评团主站页面很多了，随着多人开发模式的业务特点，点评前端架构师&lt;a href=&quot;http://www.infoq.com/cn/news/2013/09/dazhongdianping-front-end-dev/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;张颖&lt;/a&gt;正着力开发一个AMD标准的库NeuronJs&lt;br&gt;2012年上半年，&lt;a href=&quot;http://t.dianping.com/shanghai&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;团购站&lt;/a&gt;需要从.Net迁移到java，我和另外一个伙伴就利用这个契机完成了站点从Mootools到Neuron的代码迁移。&lt;br&gt;下半年，随着手机应用的增多，超哥启动了一个新的项目（点评触屏版）单独让我负责。我记得当时我们用的还是Wap，基本上没啥JS代码。&lt;br&gt;但是对H5还不是很了解，硬着头皮上，当时选择了小巧的Zepto移动框架，之前我写HTML不是特别多，但这个项目结构样式都由我来写，所以相对来说，我接触H5算是比较早的，遇到的坑也是蛮多的，市面上各种低端机，什么魅族M8，索爱LT系列，苹果4等等。&lt;br&gt;后来基本上线后，又开始了&lt;a href=&quot;http://m.dianping.com/tuan&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;触屏版团购版&lt;/a&gt;和&lt;a href=&quot;https://mlogin.dianping.com/login?redir=http://m.dianping.com/tuan/receiptlist?st=1&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;用户登录注册模块&lt;/a&gt;，但相对顺手了一些，不过跨团队工作也蛮辛苦的。&lt;br&gt;2013年春站点又经历了三四次功能和UI迭代开发，当时自己负责的业务模块有：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;团购个人中心&lt;/li&gt;
-&lt;li&gt;团购验券商户平台&lt;/li&gt;
-&lt;li&gt;团购触屏版&lt;/li&gt;
-&lt;li&gt;主站触屏版&lt;/li&gt;
-&lt;li&gt;点评登录注册模块触屏版。&lt;/li&gt;
-&lt;li&gt;后来又有新的项目立项，自己又承担了点评优惠券及其新的优惠券管理平台的开发。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://t.dianping.com/shanghai&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;团购个人中心&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://e.dianping.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;团购验券商户平台&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://m.dianping.com/tuan/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;团购触屏版&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://m.dianping.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;主站触屏版&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://mlogin.dianping.com/login/password&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;点评登录注册模块触屏版&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;后来又有新的项目立项，自己又承担了&lt;a href=&quot;http://www.dianping.com/coupon/shanghai&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;点评优惠券&lt;/a&gt;及其新的优惠券管理平台的开发。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;2013年年初和年中，面对每天这么多同步的开发，而且跨部门，跨楼层的沟通，对自己是一个极大的考验，我试着把自己每一天的工作都列出来，然后一项项完成打勾，尽管如此，有些产品线还是有些delay了时间。&lt;br&gt;当时我定在十月份结婚，七八月份时候跟爱人沟通少了很多，面对爱人的抱怨，我开始反思自己的问题；虽然工作很重要，自己也愿意给自己一些压力，可是工作不是一切，生活和感情也是至关重要的，我选择离开点评，我选择一份专门做移动H5的工作。回望过去，我在点评这段时光恰恰是成长的一段时光。&lt;/p&gt;
 &lt;h2 id=&quot;2013年8月6日［盛大游戏］&quot;&gt;&lt;a href=&quot;#2013年8月6日［盛大游戏］&quot; class=&quot;headerlink&quot; title=&quot;2013年8月6日［盛大游戏］&quot;&gt;&lt;/a&gt;2013年8月6日［盛大游戏］&lt;/h2&gt;&lt;p&gt;我对盛大游戏充满很深的感情，盛大见证了我的婚姻，也见证了我家&lt;a href=&quot;http://gracer-lyl.github.io/code/works/liveapp/babyapp.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;童童的出生&lt;/a&gt;。&lt;br&gt;2013年8月6日，我进入盛大，在老曹的手下做H5前端，刚来的时候就遇到了&lt;a href=&quot;http://we.sdoprofile.com/common/js/test/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;WE框架&lt;/a&gt;，我不能不说这是个很不错的流程类的框架，依赖jQuery和requireJs两个类库，对于流程的理解和组件的处理方式至今让我觉得还是很先进。这个框架也可以移植在很多应用环境中，但是对于UI的处理分离度不够，对于移动端改造有些问题。&lt;br&gt;话说，当时9月份就遇到了一个项目，G家商城H5版本，这个项目也许是我在盛大的第一个H5作品，而且是被派到技保中心来开发，作为一个小型商城，也没有采用过于复杂的框架，为了考虑以后的扩展性及其组件上的积累，使用了Seajs+zepto。&lt;br&gt;后来部门搬到了3楼南，在2014年的一年里，我记不清到底做了多少个项目了：&lt;/p&gt;
