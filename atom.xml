@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-24T02:59:24.000Z</updated>
+  <updated>2016-05-24T03:11:51.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2016/05/14/My-New-Post/"/>
     <id>http://yoursite.com/2016/05/14/My-New-Post/</id>
     <published>2016-05-14T15:54:47.000Z</published>
-    <updated>2016-05-24T02:59:24.000Z</updated>
+    <updated>2016-05-24T03:11:51.000Z</updated>
     
     <content type="html">&lt;blockquote&gt;
 &lt;p&gt;Think Different, Do Great&lt;/p&gt;
@@ -37,7 +37,7 @@
 &lt;li&gt;后来又有新的项目立项，自己又承担了&lt;a href=&quot;http://www.dianping.com/coupon/shanghai&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;点评优惠券&lt;/a&gt;及其新的优惠券管理平台的开发。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;2013年年初和年中，面对每天这么多同步的开发，而且跨部门，跨楼层的沟通，对自己是一个极大的考验，我试着把自己每一天的工作都列出来，然后一项项完成打勾，尽管如此，有些产品线还是有些delay了时间。&lt;br&gt;当时我定在十月份结婚，七八月份时候跟爱人沟通少了很多，面对爱人的抱怨，我开始反思自己的问题；虽然工作很重要，自己也愿意给自己一些压力，可是工作不是一切，生活和感情也是至关重要的，我选择离开点评，我选择一份专门做移动H5的工作。回望过去，我在点评这段时光恰恰是成长的一段时光。&lt;/p&gt;
-&lt;h2 id=&quot;2013年8月6日［盛大游戏］&quot;&gt;&lt;a href=&quot;#2013年8月6日［盛大游戏］&quot; class=&quot;headerlink&quot; title=&quot;2013年8月6日［盛大游戏］&quot;&gt;&lt;/a&gt;2013年8月6日［盛大游戏］&lt;/h2&gt;&lt;p&gt;我对盛大游戏充满很深的感情，盛大见证了我的婚姻，也见证了我家&lt;a href=&quot;http://gracer-lyl.github.io/code/works/liveapp/babyapp.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;童童的出生&lt;/a&gt;。&lt;br&gt;2013年8月6日，我进入盛大，在老曹的手下做H5前端，刚来的时候就遇到了&lt;a href=&quot;http://we.sdoprofile.com/common/js/test/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;WE框架&lt;/a&gt;，我不能不说这是个很不错的流程类的框架，依赖jQuery和requireJs两个类库，对于流程的理解和组件的处理方式至今让我觉得还是很先进。这个框架也可以移植在很多应用环境中，但是对于UI的处理分离度不够，对于移动端改造有些问题。&lt;br&gt;话说，当时9月份就遇到了一个项目，G家商城H5版本，这个项目也许是我在盛大的第一个H5作品，而且是被派到技保中心来开发，作为一个小型商城，也没有采用过于复杂的框架，为了考虑以后的扩展性及其组件上的积累，使用了Seajs+zepto。&lt;br&gt;后来部门搬到了3楼南，在2014年的一年里，我记不清到底做了多少个项目了：&lt;/p&gt;
+&lt;h2 id=&quot;2013年8月6日［盛大游戏］&quot;&gt;&lt;a href=&quot;#2013年8月6日［盛大游戏］&quot; class=&quot;headerlink&quot; title=&quot;2013年8月6日［盛大游戏］&quot;&gt;&lt;/a&gt;2013年8月6日［盛大游戏］&lt;/h2&gt;&lt;p&gt;我对盛大游戏充满很深的感情，盛大见证了我的婚姻，也见证了我家&lt;a href=&quot;http://gracer-lyl.github.io/code/works/liveapp/babyapp.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;童童的出生&lt;/a&gt;。&lt;br&gt;2013年8月6日，我进入盛大，在老曹的手下做H5前端，刚来的时候就遇到了&lt;a href=&quot;http://we.sdoprofile.com/common/js/test/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;WE框架&lt;/a&gt;，我不能不说这是个很不错的流程类的框架，依赖jQuery和requireJs两个类库，对于流程的理解和组件的处理方式至今让我觉得还是很先进。这个框架也可以移植在很多应用环境中，但是对于UI的处理分离度不够，对于移动端改造有些问题。&lt;br&gt;话说，当时9月份就遇到了一个项目，G家商城H5版本，这个项目也许是我在盛大的第一个H5作品，而且是被派到技保中心来开发，作为一个小型商城，也没有采用过于复杂的框架，为了考虑以后的扩展性及其组件上的积累，使用了&lt;a href=&quot;http://seajs.org/docs/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Seajs&lt;/a&gt;+zepto&lt;br&gt;后来部门搬到了3楼南，在2014年的一年里，我记不清到底做了多少个项目了：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;跟陈洋一起折腾&lt;a href=&quot;http://act.g.sdo.com/ff/static/music/index.html#/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;FF14各种活动&lt;/a&gt;，才知道不折腾下就不知道自己能力在哪里&lt;/li&gt;
 &lt;li&gt;跟佩佩、亚平、龙哥一起做G家APP内部运营活动，才知道移动H5开发合作的不易与做活动所需要的耐心&lt;/li&gt;
@@ -64,7 +64,7 @@
 &lt;/ul&gt;
 &lt;h2 id=&quot;2015年1月9号［房金所］&quot;&gt;&lt;a href=&quot;#2015年1月9号［房金所］&quot; class=&quot;headerlink&quot; title=&quot;2015年1月9号［房金所］&quot;&gt;&lt;/a&gt;2015年1月9号［房金所］&lt;/h2&gt;&lt;p&gt;2015年还没过年，就在一个不合适的时间点去了一家P2P公司－&lt;a href=&quot;https://fangjs.sina.com.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;房金所&lt;/a&gt;，在这家公司好像一切都要从头开始搞：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;先是后台管理采用了requirejs的改进，大大提升了使用体验&lt;/li&gt;
+&lt;li&gt;先是后台管理采用了&lt;a href=&quot;http://www.requirejs.cn/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;requirejs&lt;/a&gt;的改进，大大提升了使用体验&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;https://fangjs.sina.com.cn/mobile/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;H5移动触屏版&lt;/a&gt;（将来的App版本），面对自己熟悉的框架，我选择了没有接触过的Reactjs+Flux，还有新认识的朋友Webpack；这个项目做下来感觉还是很花精力的，不过对于Store的处理，个人还是觉得Flux做得不到位，后来又改成了Redux框架&lt;/li&gt;
 &lt;li&gt;主站要全面改版，当时遇到了&lt;a href=&quot;http://fis.baidu.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;百度团队的FIS&lt;/a&gt;，很棒的一个东西，它采用了commonjs的方式来写浏览器代码，很多优秀的特性；对于这次架构和各个模块的处理，感觉还是不错的&lt;/li&gt;
 &lt;li&gt;搞了几次特别的理财和抽奖活动&lt;/li&gt;
