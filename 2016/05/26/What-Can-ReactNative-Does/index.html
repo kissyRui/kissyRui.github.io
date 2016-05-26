@@ -74,7 +74,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="React Native," />
 
 
 
@@ -92,16 +92,22 @@
 
 
 
-<meta name="description" content="永远年轻，永远热泪盈眶。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="about">
-<meta property="og:url" content="http://yoursite.com/about/index.html">
+<meta name="description" content="本调研报告基于Android，我为什么这么做呢？基于React Native最先支持iOS平台，所以相对比较稳定成熟；而Android想对来说支持晚，基于Android平台来调研更能看出React Native所支持的特性。
+
+地理定位地理坐标经纬度支持，可以做定位需求1234navigator.geolocation.getCurrentPosition(    (position) =&amp;gt">
+<meta property="og:type" content="article">
+<meta property="og:title" content="React Native支持的特性">
+<meta property="og:url" content="http://yoursite.com/2016/05/26/What-Can-ReactNative-Does/index.html">
 <meta property="og:site_name" content="亮说">
-<meta property="og:description" content="永远年轻，永远热泪盈眶。">
-<meta property="og:updated_time" content="2016-05-24T08:39:56.000Z">
+<meta property="og:description" content="本调研报告基于Android，我为什么这么做呢？基于React Native最先支持iOS平台，所以相对比较稳定成熟；而Android想对来说支持晚，基于Android平台来调研更能看出React Native所支持的特性。
+
+地理定位地理坐标经纬度支持，可以做定位需求1234navigator.geolocation.getCurrentPosition(    (position) =&amp;gt">
+<meta property="og:updated_time" content="2016-05-26T03:27:27.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="about">
-<meta name="twitter:description" content="永远年轻，永远热泪盈眶。">
+<meta name="twitter:title" content="React Native支持的特性">
+<meta name="twitter:description" content="本调研报告基于Android，我为什么这么做呢？基于React Native最先支持iOS平台，所以相对比较稳定成熟；而Android想对来说支持晚，基于Android平台来调研更能看出React Native所支持的特性。
+
+地理定位地理坐标经纬度支持，可以做定位需求1234navigator.geolocation.getCurrentPosition(    (position) =&amp;gt">
 
 
 
@@ -119,13 +125,7 @@
   };
 </script>
 
-  <title>
-  
-
-  
-    about | 亮说
-  
-</title>
+  <title> React Native支持的特性 | 亮说 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -146,7 +146,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left  ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -246,9 +246,134 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
     
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                React Native支持的特性
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-05-26T10:32:15+08:00" content="2016-05-26">
+              2016-05-26
+            </time>
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2016/05/26/What-Can-ReactNative-Does/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/05/26/What-Can-ReactNative-Does/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
       
-    
+      
+
+      
+        <blockquote>
+<p>本调研报告基于Android，我为什么这么做呢？基于React Native最先支持iOS平台，所以相对比较稳定成熟；而Android想对来说支持晚，基于Android平台来调研更能看出React Native所支持的特性。</p>
+</blockquote>
+<h2 id="地理定位"><a href="#地理定位" class="headerlink" title="地理定位"></a>地理定位</h2><p>地理坐标经纬度支持，可以做定位需求<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">navigator.geolocation.getCurrentPosition(</span><br><span class="line">    (position) =&gt; <span class="keyword">this</span>.setState(&#123;position&#125;),</span><br><span class="line">    (error) =&gt; <span class="built_in">console</span>.error(error)</span><br><span class="line">);</span><br></pre></td></tr></table></figure></p>
+<p>同时，在Android AndroidManifest.xml中配置支持地理地位<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 访问Geolocaton --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">uses-permission</span> <span class="attr">android:name</span>=<span class="string">"android.permission.ACCESS_FINE_LOCATION"</span> /&gt;</span></span><br></pre></td></tr></table></figure></p>
+
+      
+    </div>
+
+    <div>
+      
+        
+<div id="wechat_subscriber" style="display: block； padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <img id="wechat_subscriber_qcode" src="/uploads/qrcode_for_gh.jpg" alt="李永亮 wechat" style="width: 200px; max-width: 100%;"/>
+    <div>欢迎您扫一扫上面的微信公众号，订阅我的博客！</div>
+</div>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/React-Native/" rel="tag">#React Native</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/05/14/What-I-Do-In-Past-Five-Years/" rel="next" title="做前端，已五年">
+                <i class="fa fa-chevron-left"></i> 做前端，已五年
+              </a>
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
@@ -259,8 +384,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="about/index.html"
-           data-title="about" data-url="http://yoursite.com/about/index.html">
+      <div class="ds-thread" data-thread-key="2016/05/26/What-Can-ReactNative-Does/"
+           data-title="React Native支持的特性" data-url="http://yoursite.com/2016/05/26/What-Can-ReactNative-Does/">
       </div>
     
   </div>
@@ -284,8 +409,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="http://tva2.sinaimg.cn/crop.0.0.640.640.180/807dbac4jw8f3wt5rq21yj20hs0hs750.jpg"
@@ -388,6 +522,17 @@
       </section>
 
       
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#地理定位"><span class="nav-number">1.</span> <span class="nav-text">地理定位</span></a></li></ol></div>
+            
+          </div>
+        </section>
+      
 
     </div>
   </aside>
@@ -483,6 +628,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
