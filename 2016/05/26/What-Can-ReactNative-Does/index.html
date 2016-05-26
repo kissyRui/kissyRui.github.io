@@ -94,20 +94,32 @@
 
 <meta name="description" content="本调研报告基于Android，我为什么这么做呢？基于React Native最先支持iOS平台，所以相对比较稳定成熟；而Android想对来说支持晚，基于Android平台来调研更能看出React Native所支持的特性。
 
-地理定位地理坐标经纬度支持，可以做定位需求1234navigator.geolocation.getCurrentPosition(    (position) =&amp;gt">
+Web的用户体验仍无法超越Native：
+
+Native的原生控件有更好的体验
+Native有更好的手势识别
+Native有更合适的线程模型，尽管Web Worker可以">
 <meta property="og:type" content="article">
 <meta property="og:title" content="React Native支持的特性">
 <meta property="og:url" content="http://yoursite.com/2016/05/26/What-Can-ReactNative-Does/index.html">
 <meta property="og:site_name" content="亮说">
 <meta property="og:description" content="本调研报告基于Android，我为什么这么做呢？基于React Native最先支持iOS平台，所以相对比较稳定成熟；而Android想对来说支持晚，基于Android平台来调研更能看出React Native所支持的特性。
 
-地理定位地理坐标经纬度支持，可以做定位需求1234navigator.geolocation.getCurrentPosition(    (position) =&amp;gt">
-<meta property="og:updated_time" content="2016-05-26T03:27:27.000Z">
+Web的用户体验仍无法超越Native：
+
+Native的原生控件有更好的体验
+Native有更好的手势识别
+Native有更合适的线程模型，尽管Web Worker可以">
+<meta property="og:updated_time" content="2016-05-26T17:01:22.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="React Native支持的特性">
 <meta name="twitter:description" content="本调研报告基于Android，我为什么这么做呢？基于React Native最先支持iOS平台，所以相对比较稳定成熟；而Android想对来说支持晚，基于Android平台来调研更能看出React Native所支持的特性。
 
-地理定位地理坐标经纬度支持，可以做定位需求1234navigator.geolocation.getCurrentPosition(    (position) =&amp;gt">
+Web的用户体验仍无法超越Native：
+
+Native的原生控件有更好的体验
+Native有更好的手势识别
+Native有更合适的线程模型，尽管Web Worker可以">
 
 
 
@@ -315,8 +327,33 @@
         <blockquote>
 <p>本调研报告基于Android，我为什么这么做呢？基于React Native最先支持iOS平台，所以相对比较稳定成熟；而Android想对来说支持晚，基于Android平台来调研更能看出React Native所支持的特性。</p>
 </blockquote>
-<h2 id="地理定位"><a href="#地理定位" class="headerlink" title="地理定位"></a>地理定位</h2><p>地理坐标经纬度支持，可以做定位需求<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">navigator.geolocation.getCurrentPosition(</span><br><span class="line">    (position) =&gt; <span class="keyword">this</span>.setState(&#123;position&#125;),</span><br><span class="line">    (error) =&gt; <span class="built_in">console</span>.error(error)</span><br><span class="line">);</span><br></pre></td></tr></table></figure></p>
+<p>Web的用户体验仍无法超越Native：</p>
+<ul>
+<li>Native的原生控件有更好的体验</li>
+<li>Native有更好的手势识别</li>
+<li>Native有更合适的线程模型，尽管Web Worker可以解决一部分问题，但如图像解码、文本渲染仍无法多线程渲染，这影响了Web的流畅性</li>
+</ul>
+<h2 id="多平台支持"><a href="#多平台支持" class="headerlink" title="多平台支持"></a>多平台支持</h2><p>目前对iOS支持很完善，Android也基本上还可以满足需求</p>
+<h2 id="开发成本低，效率高"><a href="#开发成本低，效率高" class="headerlink" title="开发成本低，效率高"></a>开发成本低，效率高</h2><p>相对而言，开发成本更低，代码量更少</p>
+<h2 id="性能优于Web，体验流畅"><a href="#性能优于Web，体验流畅" class="headerlink" title="性能优于Web，体验流畅"></a>性能优于Web，体验流畅</h2><p>也是为了解决webview的性能问题而生，实际使用体验上还是很流畅的</p>
+<h2 id="组件化编程体验"><a href="#组件化编程体验" class="headerlink" title="组件化编程体验"></a>组件化编程体验</h2><h2 id="可定制化UI组件"><a href="#可定制化UI组件" class="headerlink" title="可定制化UI组件"></a>可定制化UI组件</h2><p>支持的UI组件提供了很大程度的扩展性，如Modal</p>
+<h2 id="地理定位"><a href="#地理定位" class="headerlink" title="地理定位"></a>地理定位</h2><p>navigator.geoloaction的支持<br>地理坐标经纬度支持，可以做定位需求<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">navigator.geolocation.getCurrentPosition(</span><br><span class="line">    (position) =&gt; <span class="keyword">this</span>.setState(&#123;position&#125;),</span><br><span class="line">    (error) =&gt; <span class="built_in">console</span>.error(error)</span><br><span class="line">);</span><br></pre></td></tr></table></figure></p>
 <p>同时，在Android AndroidManifest.xml中配置支持地理地位<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 访问Geolocaton --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">uses-permission</span> <span class="attr">android:name</span>=<span class="string">"android.permission.ACCESS_FINE_LOCATION"</span> /&gt;</span></span><br></pre></td></tr></table></figure></p>
+<h2 id="相册接口"><a href="#相册接口" class="headerlink" title="相册接口"></a>相册接口</h2><p>提供手机相册的读取和保存，当然可以利用摄像头</p>
+<h2 id="剪切板"><a href="#剪切板" class="headerlink" title="剪切板"></a>剪切板</h2><p>传统webview内不支持的复制功能RN支持了</p>
+<h2 id="异步本地存储"><a href="#异步本地存储" class="headerlink" title="异步本地存储"></a>异步本地存储</h2><p>类似于localstorage，可以实现购物车等类似功能</p>
+<h2 id="获取应用状态"><a href="#获取应用状态" class="headerlink" title="获取应用状态"></a>获取应用状态</h2><p>可以根据应用状态做一些处理</p>
+<h2 id="webview的扩展支持-Android变通"><a href="#webview的扩展支持-Android变通" class="headerlink" title="webview的扩展支持(Android变通)"></a>webview的扩展支持(Android变通)</h2><p>对于一些活动类的页面，RN也支持webview组件</p>
+<h2 id="消息推送机制"><a href="#消息推送机制" class="headerlink" title="消息推送机制"></a>消息推送机制</h2><p>可以利用原生的调用实现消息推送</p>
+<h2 id="可以设置自定义字体"><a href="#可以设置自定义字体" class="headerlink" title="可以设置自定义字体"></a>可以设置自定义字体</h2><p>可以设置自定义字体，建议引入ttf格式</p>
+<h2 id="键盘支持"><a href="#键盘支持" class="headerlink" title="键盘支持"></a>键盘支持</h2><p>对键盘的支持，可以接近原生</p>
+<h2 id="动画支持"><a href="#动画支持" class="headerlink" title="动画支持"></a>动画支持</h2><p>setTimeout，setInterval，Animated，css3，requestAnimationFrame，调用原生动画效果等等方式可以用</p>
+<h2 id="原生与JS通信机制"><a href="#原生与JS通信机制" class="headerlink" title="原生与JS通信机制"></a>原生与JS通信机制</h2><p>js和原生通信很重要</p>
+<h2 id="原生视图和模块的扩展"><a href="#原生视图和模块的扩展" class="headerlink" title="原生视图和模块的扩展"></a>原生视图和模块的扩展</h2><p>这个可以发挥原生优秀UI组件或模块的优势</p>
+<h2 id="网络状态的检测"><a href="#网络状态的检测" class="headerlink" title="网络状态的检测"></a>网络状态的检测</h2><p>能检测网络的状况</p>
+<h2 id="平滑的页面切换"><a href="#平滑的页面切换" class="headerlink" title="平滑的页面切换"></a>平滑的页面切换</h2><p>navigator页面跳转很平滑</p>
+<h2 id="热更新特性"><a href="#热更新特性" class="headerlink" title="热更新特性"></a>热更新特性</h2><p>动态更新线上业务代码，避免过多苹果APP Store审核</p>
+<h2 id="缓存-打包"><a href="#缓存-打包" class="headerlink" title="缓存/打包"></a>缓存/打包</h2><p><a href="http://facebook.github.io/react-native/showcase.html" target="_blank" rel="external">使用React Native编写的应用</a></p>
 
       
     </div>
@@ -528,7 +565,7 @@
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#地理定位"><span class="nav-number">1.</span> <span class="nav-text">地理定位</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#多平台支持"><span class="nav-number">1.</span> <span class="nav-text">多平台支持</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#开发成本低，效率高"><span class="nav-number">2.</span> <span class="nav-text">开发成本低，效率高</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#性能优于Web，体验流畅"><span class="nav-number">3.</span> <span class="nav-text">性能优于Web，体验流畅</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#组件化编程体验"><span class="nav-number">4.</span> <span class="nav-text">组件化编程体验</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#可定制化UI组件"><span class="nav-number">5.</span> <span class="nav-text">可定制化UI组件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#地理定位"><span class="nav-number">6.</span> <span class="nav-text">地理定位</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#相册接口"><span class="nav-number">7.</span> <span class="nav-text">相册接口</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#剪切板"><span class="nav-number">8.</span> <span class="nav-text">剪切板</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#异步本地存储"><span class="nav-number">9.</span> <span class="nav-text">异步本地存储</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#获取应用状态"><span class="nav-number">10.</span> <span class="nav-text">获取应用状态</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#webview的扩展支持-Android变通"><span class="nav-number">11.</span> <span class="nav-text">webview的扩展支持(Android变通)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#消息推送机制"><span class="nav-number">12.</span> <span class="nav-text">消息推送机制</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#可以设置自定义字体"><span class="nav-number">13.</span> <span class="nav-text">可以设置自定义字体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#键盘支持"><span class="nav-number">14.</span> <span class="nav-text">键盘支持</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#动画支持"><span class="nav-number">15.</span> <span class="nav-text">动画支持</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#原生与JS通信机制"><span class="nav-number">16.</span> <span class="nav-text">原生与JS通信机制</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#原生视图和模块的扩展"><span class="nav-number">17.</span> <span class="nav-text">原生视图和模块的扩展</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#网络状态的检测"><span class="nav-number">18.</span> <span class="nav-text">网络状态的检测</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#平滑的页面切换"><span class="nav-number">19.</span> <span class="nav-text">平滑的页面切换</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#热更新特性"><span class="nav-number">20.</span> <span class="nav-text">热更新特性</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#缓存-打包"><span class="nav-number">21.</span> <span class="nav-text">缓存/打包</span></a></li></ol></div>
             
           </div>
         </section>

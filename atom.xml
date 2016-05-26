@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-05-26T03:27:27.000Z</updated>
+  <updated>2016-05-26T17:01:22.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,13 +20,38 @@
     <link href="http://yoursite.com/2016/05/26/What-Can-ReactNative-Does/"/>
     <id>http://yoursite.com/2016/05/26/What-Can-ReactNative-Does/</id>
     <published>2016-05-26T02:32:15.000Z</published>
-    <updated>2016-05-26T03:27:27.000Z</updated>
+    <updated>2016-05-26T17:01:22.000Z</updated>
     
     <content type="html">&lt;blockquote&gt;
 &lt;p&gt;本调研报告基于Android，我为什么这么做呢？基于React Native最先支持iOS平台，所以相对比较稳定成熟；而Android想对来说支持晚，基于Android平台来调研更能看出React Native所支持的特性。&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h2 id=&quot;地理定位&quot;&gt;&lt;a href=&quot;#地理定位&quot; class=&quot;headerlink&quot; title=&quot;地理定位&quot;&gt;&lt;/a&gt;地理定位&lt;/h2&gt;&lt;p&gt;地理坐标经纬度支持，可以做定位需求&lt;br&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;navigator.geolocation.getCurrentPosition(&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    (position) =&amp;gt; &lt;span class=&quot;keyword&quot;&gt;this&lt;/span&gt;.setState(&amp;#123;position&amp;#125;),&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    (error) =&amp;gt; &lt;span class=&quot;built_in&quot;&gt;console&lt;/span&gt;.error(error)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;p&gt;Web的用户体验仍无法超越Native：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Native的原生控件有更好的体验&lt;/li&gt;
+&lt;li&gt;Native有更好的手势识别&lt;/li&gt;
+&lt;li&gt;Native有更合适的线程模型，尽管Web Worker可以解决一部分问题，但如图像解码、文本渲染仍无法多线程渲染，这影响了Web的流畅性&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;多平台支持&quot;&gt;&lt;a href=&quot;#多平台支持&quot; class=&quot;headerlink&quot; title=&quot;多平台支持&quot;&gt;&lt;/a&gt;多平台支持&lt;/h2&gt;&lt;p&gt;目前对iOS支持很完善，Android也基本上还可以满足需求&lt;/p&gt;
+&lt;h2 id=&quot;开发成本低，效率高&quot;&gt;&lt;a href=&quot;#开发成本低，效率高&quot; class=&quot;headerlink&quot; title=&quot;开发成本低，效率高&quot;&gt;&lt;/a&gt;开发成本低，效率高&lt;/h2&gt;&lt;p&gt;相对而言，开发成本更低，代码量更少&lt;/p&gt;
+&lt;h2 id=&quot;性能优于Web，体验流畅&quot;&gt;&lt;a href=&quot;#性能优于Web，体验流畅&quot; class=&quot;headerlink&quot; title=&quot;性能优于Web，体验流畅&quot;&gt;&lt;/a&gt;性能优于Web，体验流畅&lt;/h2&gt;&lt;p&gt;也是为了解决webview的性能问题而生，实际使用体验上还是很流畅的&lt;/p&gt;
+&lt;h2 id=&quot;组件化编程体验&quot;&gt;&lt;a href=&quot;#组件化编程体验&quot; class=&quot;headerlink&quot; title=&quot;组件化编程体验&quot;&gt;&lt;/a&gt;组件化编程体验&lt;/h2&gt;&lt;h2 id=&quot;可定制化UI组件&quot;&gt;&lt;a href=&quot;#可定制化UI组件&quot; class=&quot;headerlink&quot; title=&quot;可定制化UI组件&quot;&gt;&lt;/a&gt;可定制化UI组件&lt;/h2&gt;&lt;p&gt;支持的UI组件提供了很大程度的扩展性，如Modal&lt;/p&gt;
+&lt;h2 id=&quot;地理定位&quot;&gt;&lt;a href=&quot;#地理定位&quot; class=&quot;headerlink&quot; title=&quot;地理定位&quot;&gt;&lt;/a&gt;地理定位&lt;/h2&gt;&lt;p&gt;navigator.geoloaction的支持&lt;br&gt;地理坐标经纬度支持，可以做定位需求&lt;br&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;navigator.geolocation.getCurrentPosition(&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    (position) =&amp;gt; &lt;span class=&quot;keyword&quot;&gt;this&lt;/span&gt;.setState(&amp;#123;position&amp;#125;),&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    (error) =&amp;gt; &lt;span class=&quot;built_in&quot;&gt;console&lt;/span&gt;.error(error)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;);&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
 &lt;p&gt;同时，在Android AndroidManifest.xml中配置支持地理地位&lt;br&gt;&lt;figure class=&quot;highlight xml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;&amp;lt;!-- 访问Geolocaton --&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;&lt;span class=&quot;name&quot;&gt;uses-permission&lt;/span&gt; &lt;span class=&quot;attr&quot;&gt;android:name&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&quot;android.permission.ACCESS_FINE_LOCATION&quot;&lt;/span&gt; /&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;/p&gt;
+&lt;h2 id=&quot;相册接口&quot;&gt;&lt;a href=&quot;#相册接口&quot; class=&quot;headerlink&quot; title=&quot;相册接口&quot;&gt;&lt;/a&gt;相册接口&lt;/h2&gt;&lt;p&gt;提供手机相册的读取和保存，当然可以利用摄像头&lt;/p&gt;
+&lt;h2 id=&quot;剪切板&quot;&gt;&lt;a href=&quot;#剪切板&quot; class=&quot;headerlink&quot; title=&quot;剪切板&quot;&gt;&lt;/a&gt;剪切板&lt;/h2&gt;&lt;p&gt;传统webview内不支持的复制功能RN支持了&lt;/p&gt;
+&lt;h2 id=&quot;异步本地存储&quot;&gt;&lt;a href=&quot;#异步本地存储&quot; class=&quot;headerlink&quot; title=&quot;异步本地存储&quot;&gt;&lt;/a&gt;异步本地存储&lt;/h2&gt;&lt;p&gt;类似于localstorage，可以实现购物车等类似功能&lt;/p&gt;
+&lt;h2 id=&quot;获取应用状态&quot;&gt;&lt;a href=&quot;#获取应用状态&quot; class=&quot;headerlink&quot; title=&quot;获取应用状态&quot;&gt;&lt;/a&gt;获取应用状态&lt;/h2&gt;&lt;p&gt;可以根据应用状态做一些处理&lt;/p&gt;
+&lt;h2 id=&quot;webview的扩展支持-Android变通&quot;&gt;&lt;a href=&quot;#webview的扩展支持-Android变通&quot; class=&quot;headerlink&quot; title=&quot;webview的扩展支持(Android变通)&quot;&gt;&lt;/a&gt;webview的扩展支持(Android变通)&lt;/h2&gt;&lt;p&gt;对于一些活动类的页面，RN也支持webview组件&lt;/p&gt;
+&lt;h2 id=&quot;消息推送机制&quot;&gt;&lt;a href=&quot;#消息推送机制&quot; class=&quot;headerlink&quot; title=&quot;消息推送机制&quot;&gt;&lt;/a&gt;消息推送机制&lt;/h2&gt;&lt;p&gt;可以利用原生的调用实现消息推送&lt;/p&gt;
+&lt;h2 id=&quot;可以设置自定义字体&quot;&gt;&lt;a href=&quot;#可以设置自定义字体&quot; class=&quot;headerlink&quot; title=&quot;可以设置自定义字体&quot;&gt;&lt;/a&gt;可以设置自定义字体&lt;/h2&gt;&lt;p&gt;可以设置自定义字体，建议引入ttf格式&lt;/p&gt;
+&lt;h2 id=&quot;键盘支持&quot;&gt;&lt;a href=&quot;#键盘支持&quot; class=&quot;headerlink&quot; title=&quot;键盘支持&quot;&gt;&lt;/a&gt;键盘支持&lt;/h2&gt;&lt;p&gt;对键盘的支持，可以接近原生&lt;/p&gt;
+&lt;h2 id=&quot;动画支持&quot;&gt;&lt;a href=&quot;#动画支持&quot; class=&quot;headerlink&quot; title=&quot;动画支持&quot;&gt;&lt;/a&gt;动画支持&lt;/h2&gt;&lt;p&gt;setTimeout，setInterval，Animated，css3，requestAnimationFrame，调用原生动画效果等等方式可以用&lt;/p&gt;
+&lt;h2 id=&quot;原生与JS通信机制&quot;&gt;&lt;a href=&quot;#原生与JS通信机制&quot; class=&quot;headerlink&quot; title=&quot;原生与JS通信机制&quot;&gt;&lt;/a&gt;原生与JS通信机制&lt;/h2&gt;&lt;p&gt;js和原生通信很重要&lt;/p&gt;
+&lt;h2 id=&quot;原生视图和模块的扩展&quot;&gt;&lt;a href=&quot;#原生视图和模块的扩展&quot; class=&quot;headerlink&quot; title=&quot;原生视图和模块的扩展&quot;&gt;&lt;/a&gt;原生视图和模块的扩展&lt;/h2&gt;&lt;p&gt;这个可以发挥原生优秀UI组件或模块的优势&lt;/p&gt;
+&lt;h2 id=&quot;网络状态的检测&quot;&gt;&lt;a href=&quot;#网络状态的检测&quot; class=&quot;headerlink&quot; title=&quot;网络状态的检测&quot;&gt;&lt;/a&gt;网络状态的检测&lt;/h2&gt;&lt;p&gt;能检测网络的状况&lt;/p&gt;
+&lt;h2 id=&quot;平滑的页面切换&quot;&gt;&lt;a href=&quot;#平滑的页面切换&quot; class=&quot;headerlink&quot; title=&quot;平滑的页面切换&quot;&gt;&lt;/a&gt;平滑的页面切换&lt;/h2&gt;&lt;p&gt;navigator页面跳转很平滑&lt;/p&gt;
+&lt;h2 id=&quot;热更新特性&quot;&gt;&lt;a href=&quot;#热更新特性&quot; class=&quot;headerlink&quot; title=&quot;热更新特性&quot;&gt;&lt;/a&gt;热更新特性&lt;/h2&gt;&lt;p&gt;动态更新线上业务代码，避免过多苹果APP Store审核&lt;/p&gt;
+&lt;h2 id=&quot;缓存-打包&quot;&gt;&lt;a href=&quot;#缓存-打包&quot; class=&quot;headerlink&quot; title=&quot;缓存/打包&quot;&gt;&lt;/a&gt;缓存/打包&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;http://facebook.github.io/react-native/showcase.html&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;使用React Native编写的应用&lt;/a&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
