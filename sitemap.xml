@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2016/05/28/ES6-How-Does-ReactNative-Bind-A-Method-To-Its-Instance/</loc>
+    
+    <lastmod>2016-05-27T17:48:44.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/05/26/What-Can-ReactNative-Does/</loc>
     
     <lastmod>2016-05-27T06:12:47.000Z</lastmod>

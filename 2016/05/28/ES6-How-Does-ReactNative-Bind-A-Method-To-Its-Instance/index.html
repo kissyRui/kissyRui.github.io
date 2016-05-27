@@ -74,7 +74,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="React Native," />
+  <meta name="keywords" content="ES6,js," />
 
 
 
@@ -92,34 +92,22 @@
 
 
 
-<meta name="description" content="本调研报告基于Android，我为什么这么做呢？基于React Native最先支持iOS平台，所以相对比较稳定成熟；而Android想对来说支持晚，基于Android平台来调研更能看出React Native所支持的特性。
+<meta name="description" content="在使用React中 如果使用ES6的Class extends写法 如果onClick绑定一个方法 需要bind(this)，而使用React.createClass方法 就不需要，请问这是为什么呢？
 
-Web的用户体验仍无法超越Native：
-
-Native的原生控件有更好的体验
-Native有更好的手势识别
-Native有更合适的线程模型，尽管Web Worker可以">
+第一种写法这种方式直接写在绑定事件处，不是特别优雅12345678910_handleClick(e) &amp;#123;    console.log(this);&amp;#125;render() &amp;#">
 <meta property="og:type" content="article">
-<meta property="og:title" content="React Native支持的特性">
-<meta property="og:url" content="http://yoursite.com/2016/05/26/What-Can-ReactNative-Does/index.html">
+<meta property="og:title" content="使用ES6语法时，事件绑定的几种写法">
+<meta property="og:url" content="http://yoursite.com/2016/05/28/ES6-How-Does-ReactNative-Bind-A-Method-To-Its-Instance/index.html">
 <meta property="og:site_name" content="亮说">
-<meta property="og:description" content="本调研报告基于Android，我为什么这么做呢？基于React Native最先支持iOS平台，所以相对比较稳定成熟；而Android想对来说支持晚，基于Android平台来调研更能看出React Native所支持的特性。
+<meta property="og:description" content="在使用React中 如果使用ES6的Class extends写法 如果onClick绑定一个方法 需要bind(this)，而使用React.createClass方法 就不需要，请问这是为什么呢？
 
-Web的用户体验仍无法超越Native：
-
-Native的原生控件有更好的体验
-Native有更好的手势识别
-Native有更合适的线程模型，尽管Web Worker可以">
-<meta property="og:updated_time" content="2016-05-27T06:12:47.000Z">
+第一种写法这种方式直接写在绑定事件处，不是特别优雅12345678910_handleClick(e) &amp;#123;    console.log(this);&amp;#125;render() &amp;#">
+<meta property="og:updated_time" content="2016-05-27T17:48:44.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="React Native支持的特性">
-<meta name="twitter:description" content="本调研报告基于Android，我为什么这么做呢？基于React Native最先支持iOS平台，所以相对比较稳定成熟；而Android想对来说支持晚，基于Android平台来调研更能看出React Native所支持的特性。
+<meta name="twitter:title" content="使用ES6语法时，事件绑定的几种写法">
+<meta name="twitter:description" content="在使用React中 如果使用ES6的Class extends写法 如果onClick绑定一个方法 需要bind(this)，而使用React.createClass方法 就不需要，请问这是为什么呢？
 
-Web的用户体验仍无法超越Native：
-
-Native的原生控件有更好的体验
-Native有更好的手势识别
-Native有更合适的线程模型，尽管Web Worker可以">
+第一种写法这种方式直接写在绑定事件处，不是特别优雅12345678910_handleClick(e) &amp;#123;    console.log(this);&amp;#125;render() &amp;#">
 
 
 
@@ -137,7 +125,7 @@ Native有更合适的线程模型，尽管Web Worker可以">
   };
 </script>
 
-  <title> React Native支持的特性 | 亮说 </title>
+  <title> 使用ES6语法时，事件绑定的几种写法 | 亮说 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -277,7 +265,7 @@ Native有更合适的线程模型，尽管Web Worker可以">
             
             
               
-                React Native支持的特性
+                使用ES6语法时，事件绑定的几种写法
               
             
           </h1>
@@ -289,19 +277,38 @@ Native有更合适的线程模型，尽管Web Worker可以">
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-05-26T10:32:15+08:00" content="2016-05-26">
-              2016-05-26
+            <time itemprop="dateCreated" datetime="2016-05-28T01:29:11+08:00" content="2016-05-28">
+              2016-05-28
             </time>
           </span>
 
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/ES6/" itemprop="url" rel="index">
+                    <span itemprop="name">ES6+</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
           
 
           
             
               <span class="post-comments-count">
                 &nbsp; | &nbsp;
-                <a href="/2016/05/26/What-Can-ReactNative-Does/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/05/26/What-Can-ReactNative-Does/" itemprop="commentsCount"></span>
+                <a href="/2016/05/28/ES6-How-Does-ReactNative-Bind-A-Method-To-Its-Instance/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/05/28/ES6-How-Does-ReactNative-Bind-A-Method-To-Its-Instance/" itemprop="commentsCount"></span>
                 </a>
               </span>
             
@@ -325,36 +332,11 @@ Native有更合适的线程模型，尽管Web Worker可以">
 
       
         <blockquote>
-<p>本调研报告基于Android，我为什么这么做呢？基于React Native最先支持iOS平台，所以相对比较稳定成熟；而Android想对来说支持晚，基于Android平台来调研更能看出React Native所支持的特性。</p>
+<p>在使用React中 如果使用ES6的Class extends写法 如果onClick绑定一个方法 需要bind(this)，而使用React.createClass方法 就不需要，请问这是为什么呢？</p>
 </blockquote>
-<p>Web的用户体验仍无法超越Native：</p>
-<ul>
-<li>Native的原生控件有更好的体验</li>
-<li>Native有更好的手势识别</li>
-<li>Native有更合适的线程模型，尽管Web Worker可以解决一部分问题，但如图像解码、文本渲染仍无法多线程渲染，这影响了Web的流畅性</li>
-</ul>
-<h2 id="多平台支持"><a href="#多平台支持" class="headerlink" title="多平台支持"></a>多平台支持</h2><p>目前对iOS支持很完善，Android也基本上还可以满足需求</p>
-<h2 id="开发成本低，效率高"><a href="#开发成本低，效率高" class="headerlink" title="开发成本低，效率高"></a>开发成本低，效率高</h2><p>相对而言，开发成本更低，代码量更少</p>
-<h2 id="性能优于Web，体验流畅"><a href="#性能优于Web，体验流畅" class="headerlink" title="性能优于Web，体验流畅"></a>性能优于Web，体验流畅</h2><p>也是为了解决webview的性能问题而生，实际使用体验上还是很流畅的</p>
-<h2 id="组件化编程体验"><a href="#组件化编程体验" class="headerlink" title="组件化编程体验"></a>组件化编程体验</h2><p>react天生就是拥有组件化思想的框架</p>
-<h2 id="Redux框架"><a href="#Redux框架" class="headerlink" title="Redux框架"></a>Redux框架</h2><h2 id="可定制化UI组件"><a href="#可定制化UI组件" class="headerlink" title="可定制化UI组件"></a>可定制化UI组件</h2><p>支持的UI组件提供了很大程度的扩展性，如Modal</p>
-<h2 id="地理定位"><a href="#地理定位" class="headerlink" title="地理定位"></a>地理定位</h2><p>navigator.geoloaction的支持<br>地理坐标经纬度支持，可以做定位需求<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">navigator.geolocation.getCurrentPosition(</span><br><span class="line">    (position) =&gt; <span class="keyword">this</span>.setState(&#123;position&#125;),</span><br><span class="line">    (error) =&gt; <span class="built_in">console</span>.error(error)</span><br><span class="line">);</span><br></pre></td></tr></table></figure></p>
-<p>同时，在Android AndroidManifest.xml中配置支持地理地位<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 访问Geolocaton --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">uses-permission</span> <span class="attr">android:name</span>=<span class="string">"android.permission.ACCESS_FINE_LOCATION"</span> /&gt;</span></span><br></pre></td></tr></table></figure></p>
-<h2 id="相册接口"><a href="#相册接口" class="headerlink" title="相册接口"></a>相册接口</h2><p>提供手机相册的读取和保存，当然可以利用摄像头</p>
-<h2 id="剪切板"><a href="#剪切板" class="headerlink" title="剪切板"></a>剪切板</h2><p>传统webview内不支持的复制功能RN支持了</p>
-<h2 id="异步本地存储"><a href="#异步本地存储" class="headerlink" title="异步本地存储"></a>异步本地存储</h2><p>类似于localstorage，可以实现购物车等类似功能</p>
-<h2 id="获取应用状态"><a href="#获取应用状态" class="headerlink" title="获取应用状态"></a>获取应用状态</h2><p>可以根据应用状态做一些处理</p>
-<h2 id="webview的扩展支持-Android变通"><a href="#webview的扩展支持-Android变通" class="headerlink" title="webview的扩展支持(Android变通)"></a>webview的扩展支持(Android变通)</h2><p>对于一些活动类的页面，RN也支持webview组件</p>
-<h2 id="消息推送机制"><a href="#消息推送机制" class="headerlink" title="消息推送机制"></a>消息推送机制</h2><p>可以利用原生的调用实现消息推送</p>
-<h2 id="可以设置自定义字体"><a href="#可以设置自定义字体" class="headerlink" title="可以设置自定义字体"></a>可以设置自定义字体</h2><p>可以设置自定义字体，建议引入ttf格式</p>
-<h2 id="键盘支持"><a href="#键盘支持" class="headerlink" title="键盘支持"></a>键盘支持</h2><p>对键盘的支持，可以接近原生</p>
-<h2 id="动画支持"><a href="#动画支持" class="headerlink" title="动画支持"></a>动画支持</h2><p>setTimeout，setInterval，Animated，css3，requestAnimationFrame，调用原生动画效果等等方式可以用</p>
-<h2 id="原生与JS通信机制"><a href="#原生与JS通信机制" class="headerlink" title="原生与JS通信机制"></a>原生与JS通信机制</h2><p>js和原生通信很重要</p>
-<h2 id="原生视图和模块的扩展"><a href="#原生视图和模块的扩展" class="headerlink" title="原生视图和模块的扩展"></a>原生视图和模块的扩展</h2><p>这个可以发挥原生优秀UI组件或模块的优势</p>
-<h2 id="网络状态的检测"><a href="#网络状态的检测" class="headerlink" title="网络状态的检测"></a>网络状态的检测</h2><p>能检测网络的状况</p>
-<h2 id="平滑的页面切换"><a href="#平滑的页面切换" class="headerlink" title="平滑的页面切换"></a>平滑的页面切换</h2><p>navigator页面跳转很平滑</p>
-<h2 id="热更新特性"><a href="#热更新特性" class="headerlink" title="热更新特性"></a>热更新特性</h2><p>动态更新线上业务代码，避免过多苹果APP Store审核</p>
-<h2 id="缓存-打包"><a href="#缓存-打包" class="headerlink" title="缓存/打包"></a>缓存/打包</h2><p><a href="http://facebook.github.io/react-native/showcase.html" target="_blank" rel="external">使用React Native编写的应用</a></p>
+<h2 id="第一种写法"><a href="#第一种写法" class="headerlink" title="第一种写法"></a>第一种写法</h2><p>这种方式直接写在绑定事件处，不是特别优雅<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">_handleClick(e) &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="keyword">this</span>);</span><br><span class="line">&#125;</span><br><span class="line">render() &#123;</span><br><span class="line">    <span class="keyword">return</span> (</span><br><span class="line">        &lt;div&gt;</span><br><span class="line">            &lt;h1 onClick=&#123;this._handleClick.bind(this)&#125;&gt;点击&lt;/h1&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">    );</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h2 id="第二种写法"><a href="#第二种写法" class="headerlink" title="第二种写法"></a>第二种写法</h2><p>这种方式其实还行，但在构造函数中多加了一行，不是很精简<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">constructor</span>(props) &#123;</span><br><span class="line">    <span class="keyword">super</span>(props);</span><br><span class="line">    <span class="keyword">this</span>._handleClick = <span class="keyword">this</span>._handleClick.bind(<span class="keyword">this</span>)</span><br><span class="line">&#125;</span><br><span class="line">_handleClick(e) &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="keyword">this</span>);</span><br><span class="line">&#125;</span><br><span class="line">render() &#123;</span><br><span class="line">    <span class="keyword">return</span> (</span><br><span class="line">        &lt;div&gt;</span><br><span class="line">            &lt;h1 onClick=&#123;this._handleClick&#125;&gt;点击&lt;/h1&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">    );</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h2 id="第三种写法"><a href="#第三种写法" class="headerlink" title="第三种写法"></a>第三种写法</h2><p>使用箭头函数轻松搞定，既优雅又精简，强烈推荐使用<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">_handleClick = (e) =&gt; &#123;</span><br><span class="line">    <span class="comment">// 使用箭头函数(arrow function)</span></span><br><span class="line">    <span class="built_in">console</span>.log(<span class="keyword">this</span>);</span><br><span class="line">&#125;</span><br><span class="line">render() &#123;</span><br><span class="line">    <span class="keyword">return</span> (</span><br><span class="line">        &lt;div&gt;</span><br><span class="line">            &lt;h1 onClick=&#123;this._handleClick&#125;&gt;点击&lt;/h1&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">    );</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -381,7 +363,9 @@ Native有更合适的线程模型，尽管Web Worker可以">
       
         <div class="post-tags">
           
-            <a href="/tags/React-Native/" rel="tag">#React Native</a>
+            <a href="/tags/ES6/" rel="tag">#ES6</a>
+          
+            <a href="/tags/js/" rel="tag">#js</a>
           
         </div>
       
@@ -390,17 +374,13 @@ Native有更合适的线程模型，尽管Web Worker可以">
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/05/14/What-I-Do-In-Past-Five-Years/" rel="next" title="做前端，已五年">
-                <i class="fa fa-chevron-left"></i> 做前端，已五年
+              <a href="/2016/05/26/What-Can-ReactNative-Does/" rel="next" title="React Native支持的特性">
+                <i class="fa fa-chevron-left"></i> React Native支持的特性
               </a>
             
           </div>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/05/28/ES6-How-Does-ReactNative-Bind-A-Method-To-Its-Instance/" rel="prev" title="使用ES6语法时，事件绑定的几种写法">
-                使用ES6语法时，事件绑定的几种写法 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -426,8 +406,8 @@ Native有更合适的线程模型，尽管Web Worker可以">
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2016/05/26/What-Can-ReactNative-Does/"
-           data-title="React Native支持的特性" data-url="http://yoursite.com/2016/05/26/What-Can-ReactNative-Does/">
+      <div class="ds-thread" data-thread-key="2016/05/28/ES6-How-Does-ReactNative-Bind-A-Method-To-Its-Instance/"
+           data-title="使用ES6语法时，事件绑定的几种写法" data-url="http://yoursite.com/2016/05/28/ES6-How-Does-ReactNative-Bind-A-Method-To-Its-Instance/">
       </div>
     
   </div>
@@ -577,7 +557,7 @@ Native有更合适的线程模型，尽管Web Worker可以">
               
             
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#多平台支持"><span class="nav-number">1.</span> <span class="nav-text">多平台支持</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#开发成本低，效率高"><span class="nav-number">2.</span> <span class="nav-text">开发成本低，效率高</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#性能优于Web，体验流畅"><span class="nav-number">3.</span> <span class="nav-text">性能优于Web，体验流畅</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#组件化编程体验"><span class="nav-number">4.</span> <span class="nav-text">组件化编程体验</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Redux框架"><span class="nav-number">5.</span> <span class="nav-text">Redux框架</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#可定制化UI组件"><span class="nav-number">6.</span> <span class="nav-text">可定制化UI组件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#地理定位"><span class="nav-number">7.</span> <span class="nav-text">地理定位</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#相册接口"><span class="nav-number">8.</span> <span class="nav-text">相册接口</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#剪切板"><span class="nav-number">9.</span> <span class="nav-text">剪切板</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#异步本地存储"><span class="nav-number">10.</span> <span class="nav-text">异步本地存储</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#获取应用状态"><span class="nav-number">11.</span> <span class="nav-text">获取应用状态</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#webview的扩展支持-Android变通"><span class="nav-number">12.</span> <span class="nav-text">webview的扩展支持(Android变通)</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#消息推送机制"><span class="nav-number">13.</span> <span class="nav-text">消息推送机制</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#可以设置自定义字体"><span class="nav-number">14.</span> <span class="nav-text">可以设置自定义字体</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#键盘支持"><span class="nav-number">15.</span> <span class="nav-text">键盘支持</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#动画支持"><span class="nav-number">16.</span> <span class="nav-text">动画支持</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#原生与JS通信机制"><span class="nav-number">17.</span> <span class="nav-text">原生与JS通信机制</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#原生视图和模块的扩展"><span class="nav-number">18.</span> <span class="nav-text">原生视图和模块的扩展</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#网络状态的检测"><span class="nav-number">19.</span> <span class="nav-text">网络状态的检测</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#平滑的页面切换"><span class="nav-number">20.</span> <span class="nav-text">平滑的页面切换</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#热更新特性"><span class="nav-number">21.</span> <span class="nav-text">热更新特性</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#缓存-打包"><span class="nav-number">22.</span> <span class="nav-text">缓存/打包</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#第一种写法"><span class="nav-number">1.</span> <span class="nav-text">第一种写法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第二种写法"><span class="nav-number">2.</span> <span class="nav-text">第二种写法</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#第三种写法"><span class="nav-number">3.</span> <span class="nav-text">第三种写法</span></a></li></ol></div>
             
           </div>
         </section>
