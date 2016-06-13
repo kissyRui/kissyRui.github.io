@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2016/06/08/Redux-Connect-Must-Has-MapStateToProps-Func/</loc>
+    
+    <lastmod>2016-06-08T10:20:25.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2016/06/07/Do-Not-Be-Lazy/</loc>
     
     <lastmod>2016-06-07T04:43:41.000Z</lastmod>
