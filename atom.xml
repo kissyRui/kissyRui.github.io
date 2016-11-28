@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-06-15T03:35:27.000Z</updated>
+  <updated>2016-11-28T17:07:37.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,30 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2016年，仅剩最后一个月</title>
+    <link href="http://yoursite.com/2016/11/29/Last-Month-In-2016/"/>
+    <id>http://yoursite.com/2016/11/29/Last-Month-In-2016/</id>
+    <published>2016-11-28T17:01:39.000Z</published>
+    <updated>2016-11-28T17:07:37.000Z</updated>
+    
+    <content type="html">&lt;p&gt;岁月如此快，2016年好像什么都没有发生。且行且珍惜&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;岁月如此快，2016年好像什么都没有发生。且行且珍惜&lt;/p&gt;
+
+    
+    </summary>
+    
+      <category term="百家" scheme="http://yoursite.com/categories/%E7%99%BE%E5%AE%B6/"/>
+    
+    
+      <category term="成长" scheme="http://yoursite.com/tags/%E6%88%90%E9%95%BF/"/>
+    
+  </entry>
   
   <entry>
     <title>Redux不能只定义一个mapDispatchToProps方法</title>
