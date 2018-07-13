@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-01-13T04:22:36.000Z</updated>
+  <updated>2018-07-13T01:41:12.372Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,18 +16,61 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>2016年，仅剩最后一个月</title>
-    <link href="http://yoursite.com/2016/11/29/Last-Month-In-2016/"/>
-    <id>http://yoursite.com/2016/11/29/Last-Month-In-2016/</id>
-    <published>2016-11-28T17:01:39.000Z</published>
-    <updated>2017-01-13T04:22:36.000Z</updated>
+    <title>GMTC-2018 客户端新技术的发展，前后端分离的现状及新发展</title>
+    <link href="http://yoursite.com/2018/07/13/GMTC-2018/"/>
+    <id>http://yoursite.com/2018/07/13/GMTC-2018/</id>
+    <published>2018-07-13T01:40:31.000Z</published>
+    <updated>2018-07-13T01:41:12.372Z</updated>
     
-    <content type="html">&lt;p&gt;岁月如此快，2016年好像什么都没有发生。且行且珍惜&lt;/p&gt;
+    <content type="html">&lt;p&gt;[x]APP技术：Flutter, RN&lt;/p&gt;
+&lt;p&gt;使用Flutter快速构建集美观与高性能于一体的移动应用&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Demo为主&lt;/li&gt;
+&lt;li&gt;特点、原理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;基于Google Flutter的移动端跨平台应用实践&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;问题及其解决方案&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;携程大规模应用React Native的工程化实践&lt;/p&gt;
+&lt;p&gt;[x]新框架&lt;/p&gt;
+&lt;p&gt;美团客户端基于响应式的架构实践&lt;/p&gt;
+&lt;p&gt;[x]APP性能优化&lt;/p&gt;
+&lt;p&gt;LinkedIn移动应用的性能优化之道&lt;br&gt;基于多项目的离线缓存实现方案&lt;br&gt;爱奇艺APP极致体验之路&lt;/p&gt;
+&lt;p&gt;[x]Nodejs前后端分离&lt;/p&gt;
+&lt;p&gt;前后端分离在APICloud的实践&lt;/p&gt;
+&lt;p&gt;重点：APICloud&lt;/p&gt;
+&lt;p&gt;去哪儿网 Node.js 实践及性能监控方案&lt;br&gt;微服务平台下基于GraphQL构建BFF的实践与思考&lt;br&gt;阿里Node.js运维和开发最佳实践&lt;br&gt;Node.js 全栈开发的常见模式探究&lt;br&gt;摩拜前端多类型 ssr 业务框架的实践优化和自研探索之路&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;岁月如此快，2016年好像什么都没有发生。且行且珍惜&lt;/p&gt;
+      &lt;p&gt;[x]APP技术：Flutter, RN&lt;/p&gt;
+&lt;p&gt;使用Flutter快速构建集美观与高性能于一体的移动应用&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Demo为主&lt;/li&gt;
+&lt;li&gt;特点、原理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;基于Google Flutter的移动端跨平台应用实践&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>2016年，仅剩最后一个月</title>
+    <link href="http://yoursite.com/2016/11/29/Last-Month-In-2016/"/>
+    <id>http://yoursite.com/2016/11/29/Last-Month-In-2016/</id>
+    <published>2016-11-28T17:01:39.000Z</published>
+    <updated>2018-07-13T01:32:29.588Z</updated>
+    
+    <content type="html">&lt;p&gt;岁月如此快，2016年好像什么都没有发生。且行且珍惜。&lt;/p&gt;
+</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;岁月如此快，2016年好像什么都没有发生。且行且珍惜。&lt;/p&gt;
 
     
     </summary>
