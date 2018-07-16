@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-13T05:41:09.039Z</updated>
+  <updated>2018-07-13T09:26:57.949Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2018/07/13/GMTC-2018/"/>
     <id>http://yoursite.com/2018/07/13/GMTC-2018/</id>
     <published>2018-07-13T01:40:31.000Z</published>
-    <updated>2018-07-13T05:41:09.039Z</updated>
+    <updated>2018-07-13T09:26:57.949Z</updated>
     
     <content type="html">&lt;h2 id=&quot;APP技术：Flutter-RN&quot;&gt;&lt;a href=&quot;#APP技术：Flutter-RN&quot; class=&quot;headerlink&quot; title=&quot;APP技术：Flutter, RN&quot;&gt;&lt;/a&gt;APP技术：Flutter, RN&lt;/h2&gt;&lt;p&gt;使用Flutter快速构建集美观与高性能于一体的移动应用 - 于潇(Google)&lt;/p&gt;
 &lt;ul&gt;
@@ -78,7 +78,7 @@
 &lt;/ul&gt;
 &lt;p&gt;摩拜前端多类型 ssr 业务框架的实践优化和自研探索之路 - 小春(摩拜单车)&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;讲的过细了，简单过一遍&lt;/li&gt;
+&lt;li&gt;讲的过细了，简单过一遍&lt;br&gt;QA&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src=&quot;/uploads/gmtc/qrcode.jpg&quot; alt=&quot;二维码扫描&quot;&gt;&lt;/p&gt;
 </content>
