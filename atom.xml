@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-17T02:24:44.264Z</updated>
+  <updated>2018-07-17T02:34:02.190Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,13 +20,13 @@
     <link href="http://yoursite.com/2018/07/13/GMTC-2018/"/>
     <id>http://yoursite.com/2018/07/13/GMTC-2018/</id>
     <published>2018-07-13T01:40:31.000Z</published>
-    <updated>2018-07-17T02:24:44.264Z</updated>
+    <updated>2018-07-17T02:34:02.190Z</updated>
     
     <content type="html">&lt;h2 id=&quot;APP技术：Flutter-RN&quot;&gt;&lt;a href=&quot;#APP技术：Flutter-RN&quot; class=&quot;headerlink&quot; title=&quot;APP技术：Flutter, RN&quot;&gt;&lt;/a&gt;APP技术：Flutter, RN&lt;/h2&gt;&lt;p&gt;使用Flutter快速构建集美观与高性能于一体的移动应用 - 于潇(Google)&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;先看一个Demo演示&lt;/li&gt;
 &lt;li&gt;用户的需求是：多平台、高性能、精美的订制设计&lt;/li&gt;
-&lt;li&gt;Flutter特点：&lt;br&gt;  1、热重载，声明式&amp;amp;响应式开发模式，界面测试；&lt;br&gt;  2、组合性的API，直通GPU渲染；&lt;br&gt;  3、高性能原理，编译至ARM代码(原生)&lt;/li&gt;
+&lt;li&gt;Flutter特点：&lt;br&gt;  1、热重载，声明式&amp;amp;响应式开发模式，界面测试；&lt;br&gt;  2、组合性的API，直通GPU渲染；&lt;br&gt;  3、高性能原理，编译至ARM代码(原生)&lt;br&gt;&lt;img src=&quot;https://limingbo.com/res/image/gaoxingneng.png&quot; alt=&quot;高性能&quot;&gt;&lt;/li&gt;
 &lt;li&gt;当前进展：在闲鱼上详情页上的应用，关注度不断飙升&lt;/li&gt;
 &lt;li&gt;宣布：Flutter ⾸首个发布预览版&lt;/li&gt;
 &lt;/ul&gt;
