@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-13T09:26:57.949Z</updated>
+  <updated>2018-07-17T02:24:44.264Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,11 +16,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>GMTC-2018 客户端新技术的发展，前后端分离的现状及新发展</title>
+    <title>GMTC-2018 客户端新技术的发展，前后端分离的现状</title>
     <link href="http://yoursite.com/2018/07/13/GMTC-2018/"/>
     <id>http://yoursite.com/2018/07/13/GMTC-2018/</id>
     <published>2018-07-13T01:40:31.000Z</published>
-    <updated>2018-07-13T09:26:57.949Z</updated>
+    <updated>2018-07-17T02:24:44.264Z</updated>
     
     <content type="html">&lt;h2 id=&quot;APP技术：Flutter-RN&quot;&gt;&lt;a href=&quot;#APP技术：Flutter-RN&quot; class=&quot;headerlink&quot; title=&quot;APP技术：Flutter, RN&quot;&gt;&lt;/a&gt;APP技术：Flutter, RN&lt;/h2&gt;&lt;p&gt;使用Flutter快速构建集美观与高性能于一体的移动应用 - 于潇(Google)&lt;/p&gt;
 &lt;ul&gt;
