@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-07-17T02:34:02.190Z</updated>
+  <updated>2018-07-18T00:01:40.421Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,72 +20,67 @@
     <link href="http://yoursite.com/2018/07/13/GMTC-2018/"/>
     <id>http://yoursite.com/2018/07/13/GMTC-2018/</id>
     <published>2018-07-13T01:40:31.000Z</published>
-    <updated>2018-07-17T02:34:02.190Z</updated>
+    <updated>2018-07-18T00:01:40.421Z</updated>
     
-    <content type="html">&lt;h2 id=&quot;APP技术：Flutter-RN&quot;&gt;&lt;a href=&quot;#APP技术：Flutter-RN&quot; class=&quot;headerlink&quot; title=&quot;APP技术：Flutter, RN&quot;&gt;&lt;/a&gt;APP技术：Flutter, RN&lt;/h2&gt;&lt;p&gt;使用Flutter快速构建集美观与高性能于一体的移动应用 - 于潇(Google)&lt;/p&gt;
-&lt;ul&gt;
+    <content type="html">&lt;h1 id=&quot;APP技术：Flutter-RN&quot;&gt;&lt;a href=&quot;#APP技术：Flutter-RN&quot; class=&quot;headerlink&quot; title=&quot;APP技术：Flutter, RN&quot;&gt;&lt;/a&gt;APP技术：Flutter, RN&lt;/h1&gt;&lt;h3 id=&quot;使用Flutter快速构建集美观与高性能于一体的移动应用-于潇-Google&quot;&gt;&lt;a href=&quot;#使用Flutter快速构建集美观与高性能于一体的移动应用-于潇-Google&quot; class=&quot;headerlink&quot; title=&quot;使用Flutter快速构建集美观与高性能于一体的移动应用 - 于潇(Google)&quot;&gt;&lt;/a&gt;使用Flutter快速构建集美观与高性能于一体的移动应用 - 于潇(Google)&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;先看一个Demo演示&lt;/li&gt;
 &lt;li&gt;用户的需求是：多平台、高性能、精美的订制设计&lt;/li&gt;
-&lt;li&gt;Flutter特点：&lt;br&gt;  1、热重载，声明式&amp;amp;响应式开发模式，界面测试；&lt;br&gt;  2、组合性的API，直通GPU渲染；&lt;br&gt;  3、高性能原理，编译至ARM代码(原生)&lt;br&gt;&lt;img src=&quot;https://limingbo.com/res/image/gaoxingneng.png&quot; alt=&quot;高性能&quot;&gt;&lt;/li&gt;
+&lt;li&gt;Flutter特点：&lt;ol&gt;
+&lt;li&gt;热重载，声明式&amp;amp;响应式开发模式，界面测试；&lt;/li&gt;
+&lt;li&gt;组合性的API，直通GPU渲染；&lt;/li&gt;
+&lt;li&gt;高性能原理，编译至ARM代码(原生)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;img src=&quot;https://limingbo.com/res/image/gaoxingneng.png&quot; alt=&quot;高性能&quot;&gt;&lt;/p&gt;
+&lt;ol&gt;
 &lt;li&gt;当前进展：在闲鱼上详情页上的应用，关注度不断飙升&lt;/li&gt;
 &lt;li&gt;宣布：Flutter ⾸首个发布预览版&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;基于Google Flutter的移动端跨平台应用实践 - 王树彬(闲鱼)&lt;/p&gt;
-&lt;ul&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;基于Google-Flutter的移动端跨平台应用实践-王树彬-闲鱼&quot;&gt;&lt;a href=&quot;#基于Google-Flutter的移动端跨平台应用实践-王树彬-闲鱼&quot; class=&quot;headerlink&quot; title=&quot;基于Google Flutter的移动端跨平台应用实践 - 王树彬(闲鱼)&quot;&gt;&lt;/a&gt;基于Google Flutter的移动端跨平台应用实践 - 王树彬(闲鱼)&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;解释了闲鱼用了Weex等技术了，为啥还要使用Flutter：高性能体验&lt;/li&gt;
 &lt;li&gt;闲鱼详情页应用情况&lt;/li&gt;
 &lt;li&gt;混合开发实践中遇到了若干问题&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;携程大规模应用React Native的工程化实践 - 赵辛贵(携程)&lt;/p&gt;
-&lt;ul&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;携程大规模应用React-Native的工程化实践-赵辛贵-携程&quot;&gt;&lt;a href=&quot;#携程大规模应用React-Native的工程化实践-赵辛贵-携程&quot; class=&quot;headerlink&quot; title=&quot;携程大规模应用React Native的工程化实践 - 赵辛贵(携程)&quot;&gt;&lt;/a&gt;携程大规模应用React Native的工程化实践 - 赵辛贵(携程)&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;完整的介绍了携程CRN框架在开发/运行/运维层面的诸多成果和方案，干货满满。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;新框架&quot;&gt;&lt;a href=&quot;#新框架&quot; class=&quot;headerlink&quot; title=&quot;新框架&quot;&gt;&lt;/a&gt;新框架&lt;/h2&gt;&lt;p&gt;美团客户端基于响应式的架构实践 - 臧成威(美团)&lt;/p&gt;
-&lt;ul&gt;
+&lt;/ol&gt;
+&lt;h1 id=&quot;新框架&quot;&gt;&lt;a href=&quot;#新框架&quot; class=&quot;headerlink&quot; title=&quot;新框架&quot;&gt;&lt;/a&gt;新框架&lt;/h1&gt;&lt;h3 id=&quot;美团客户端基于响应式的架构实践-臧成威-美团&quot;&gt;&lt;a href=&quot;#美团客户端基于响应式的架构实践-臧成威-美团&quot; class=&quot;headerlink&quot; title=&quot;美团客户端基于响应式的架构实践 - 臧成威(美团)&quot;&gt;&lt;/a&gt;美团客户端基于响应式的架构实践 - 臧成威(美团)&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;主要讲解了美团的APP的EasyReact技术和EasyMVVM框架。深度太大，没有消化。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;APP性能优化&quot;&gt;&lt;a href=&quot;#APP性能优化&quot; class=&quot;headerlink&quot; title=&quot;APP性能优化&quot;&gt;&lt;/a&gt;APP性能优化&lt;/h2&gt;&lt;p&gt;LinkedIn移动应用的性能优化之道 - 廖锦幸(LinkedIn)&lt;/p&gt;
-&lt;ul&gt;
+&lt;/ol&gt;
+&lt;h1 id=&quot;APP性能优化&quot;&gt;&lt;a href=&quot;#APP性能优化&quot; class=&quot;headerlink&quot; title=&quot;APP性能优化&quot;&gt;&lt;/a&gt;APP性能优化&lt;/h1&gt;&lt;h3 id=&quot;LinkedIn移动应用的性能优化之道-廖锦幸-LinkedIn&quot;&gt;&lt;a href=&quot;#LinkedIn移动应用的性能优化之道-廖锦幸-LinkedIn&quot; class=&quot;headerlink&quot; title=&quot;LinkedIn移动应用的性能优化之道 - 廖锦幸(LinkedIn)&quot;&gt;&lt;/a&gt;LinkedIn移动应用的性能优化之道 - 廖锦幸(LinkedIn)&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;主要讲解了LinkedIn在庞大的APP体系下，如何化繁为简地改造现有架构，并取得巨大成果，以及从发现问题-&amp;gt;分析问题-&amp;gt;解决问题-&amp;gt;验证效果的思路出发，缔造了一个完整的性能监控体系，最后结合了一些栗子来介绍一些具体的优化方案&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;基于多项目的离线缓存实现方案 - 刘弟新(掌众集团)&lt;/p&gt;
-&lt;ul&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;基于多项目的离线缓存实现方案-刘弟新-掌众集团&quot;&gt;&lt;a href=&quot;#基于多项目的离线缓存实现方案-刘弟新-掌众集团&quot; class=&quot;headerlink&quot; title=&quot;基于多项目的离线缓存实现方案 - 刘弟新(掌众集团)&quot;&gt;&lt;/a&gt;基于多项目的离线缓存实现方案 - 刘弟新(掌众集团)&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;介绍了离线缓存及其问题，资源分离采用的办法，还有懒加载的方式。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;爱奇艺APP极致体验之路 - 陈杉(爱奇艺)&lt;/p&gt;
-&lt;ul&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;爱奇艺APP极致体验之路-陈杉-爱奇艺&quot;&gt;&lt;a href=&quot;#爱奇艺APP极致体验之路-陈杉-爱奇艺&quot; class=&quot;headerlink&quot; title=&quot;爱奇艺APP极致体验之路 - 陈杉(爱奇艺)&quot;&gt;&lt;/a&gt;爱奇艺APP极致体验之路 - 陈杉(爱奇艺)&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;讲述了全程监控的流程，我着重关注了他的动态化的实践，Web渲染过程的优化，还讲了70/30原则。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;Nodejs前后端分离&quot;&gt;&lt;a href=&quot;#Nodejs前后端分离&quot; class=&quot;headerlink&quot; title=&quot;Nodejs前后端分离&quot;&gt;&lt;/a&gt;Nodejs前后端分离&lt;/h2&gt;&lt;p&gt;前后端分离在APICloud的实践 - 申成波(APICloud)&lt;/p&gt;
-&lt;ul&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;Nodejs前后端分离&quot;&gt;&lt;a href=&quot;#Nodejs前后端分离&quot; class=&quot;headerlink&quot; title=&quot;Nodejs前后端分离&quot;&gt;&lt;/a&gt;Nodejs前后端分离&lt;/h2&gt;&lt;h3 id=&quot;前后端分离在APICloud的实践-申成波-APICloud&quot;&gt;&lt;a href=&quot;#前后端分离在APICloud的实践-申成波-APICloud&quot; class=&quot;headerlink&quot; title=&quot;前后端分离在APICloud的实践 - 申成波(APICloud)&quot;&gt;&lt;/a&gt;前后端分离在APICloud的实践 - 申成波(APICloud)&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;讲了若干技术点，但是串的不够系统&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;去哪儿网 Node.js 实践及性能监控方案 - 兴百放(去哪儿网)&lt;/p&gt;
-&lt;ul&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;去哪儿网-Node-js-实践及性能监控方案-兴百放-去哪儿网&quot;&gt;&lt;a href=&quot;#去哪儿网-Node-js-实践及性能监控方案-兴百放-去哪儿网&quot; class=&quot;headerlink&quot; title=&quot;去哪儿网 Node.js 实践及性能监控方案 - 兴百放(去哪儿网)&quot;&gt;&lt;/a&gt;去哪儿网 Node.js 实践及性能监控方案 - 兴百放(去哪儿网)&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;谈论了去哪儿的前后端分离点，还有之前没有大规模使用的原因，以及使用后解决的痛点，还介绍了以前的框架及其缺陷，还有之后使用egg.js框架的情况，接着讲述了React SSR的实践、遇到的问题。最后讲了性能监控，应用监控的一些系统。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;微服务平台下基于GraphQL构建BFF的实践与思考 - 龚铭(Thoughtworks)&lt;/p&gt;
-&lt;ul&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;微服务平台下基于GraphQL构建BFF的实践与思考-龚铭-Thoughtworks&quot;&gt;&lt;a href=&quot;#微服务平台下基于GraphQL构建BFF的实践与思考-龚铭-Thoughtworks&quot; class=&quot;headerlink&quot; title=&quot;微服务平台下基于GraphQL构建BFF的实践与思考 - 龚铭(Thoughtworks)&quot;&gt;&lt;/a&gt;微服务平台下基于GraphQL构建BFF的实践与思考 - 龚铭(Thoughtworks)&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;主要讲解了基于BBF的前后端架构，GraphQL及其特点，还有BBF+GraphQL的结合，应用场景&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;阿里Node.js运维和开发最佳实践 - 陈仲寅(阿里巴巴)&lt;/p&gt;
-&lt;ul&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;阿里Node-js运维和开发最佳实践-陈仲寅-阿里巴巴&quot;&gt;&lt;a href=&quot;#阿里Node-js运维和开发最佳实践-陈仲寅-阿里巴巴&quot; class=&quot;headerlink&quot; title=&quot;阿里Node.js运维和开发最佳实践 - 陈仲寅(阿里巴巴)&quot;&gt;&lt;/a&gt;阿里Node.js运维和开发最佳实践 - 陈仲寅(阿里巴巴)&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;阿里巴巴Nodejs运维层面的东西，基于很多内部系统和工具并未开放，就此不展开说了&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Node.js 全栈开发的常见模式探究 - 李子骅(石墨文档)&lt;/p&gt;
-&lt;ul&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;Node-js-全栈开发的常见模式探究-李子骅-石墨文档&quot;&gt;&lt;a href=&quot;#Node-js-全栈开发的常见模式探究-李子骅-石墨文档&quot; class=&quot;headerlink&quot; title=&quot;Node.js 全栈开发的常见模式探究 - 李子骅(石墨文档)&quot;&gt;&lt;/a&gt;Node.js 全栈开发的常见模式探究 - 李子骅(石墨文档)&lt;/h3&gt;&lt;ol&gt;
 &lt;li&gt;讲解了子墨文档从单纯的CSR到SSR+CSR的过程，自动化测试的发展过程，以及跨平台和团队工作特点&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;摩拜前端多类型 ssr 业务框架的实践优化和自研探索之路 - 小春(摩拜单车)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;讲的过细了，简单过一遍&lt;br&gt;QA&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;img src=&quot;/uploads/gmtc/qrcode.jpg&quot; alt=&quot;二维码扫描&quot;&gt;&lt;/p&gt;
+&lt;/ol&gt;
+&lt;h3 id=&quot;摩拜前端多类型-ssr-业务框架的实践优化和自研探索之路-小春-摩拜单车&quot;&gt;&lt;a href=&quot;#摩拜前端多类型-ssr-业务框架的实践优化和自研探索之路-小春-摩拜单车&quot; class=&quot;headerlink&quot; title=&quot;摩拜前端多类型 ssr 业务框架的实践优化和自研探索之路 - 小春(摩拜单车)&quot;&gt;&lt;/a&gt;摩拜前端多类型 ssr 业务框架的实践优化和自研探索之路 - 小春(摩拜单车)&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;讲的过细了，简单过一遍&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&quot;QA&quot;&gt;&lt;a href=&quot;#QA&quot; class=&quot;headerlink&quot; title=&quot;QA&quot;&gt;&lt;/a&gt;QA&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;/uploads/gmtc/qrcode.jpg&quot; alt=&quot;二维码扫描&quot;&gt;&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;h2 id=&quot;APP技术：Flutter-RN&quot;&gt;&lt;a href=&quot;#APP技术：Flutter-RN&quot; class=&quot;headerlink&quot; title=&quot;APP技术：Flutter, RN&quot;&gt;&lt;/a&gt;APP技术：Flutter, RN&lt;/h2&gt;&lt;p&gt;使用Flutter快速构
+      &lt;h1 id=&quot;APP技术：Flutter-RN&quot;&gt;&lt;a href=&quot;#APP技术：Flutter-RN&quot; class=&quot;headerlink&quot; title=&quot;APP技术：Flutter, RN&quot;&gt;&lt;/a&gt;APP技术：Flutter, RN&lt;/h1&gt;&lt;h3 id=&quot;使用Flutt
     
     </summary>
     
