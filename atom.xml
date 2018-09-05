@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-05T17:00:22.271Z</updated>
+  <updated>2018-09-05T17:02:59.875Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,13 +16,13 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>跟进一个商城标签功能</title>
+    <title>管理思考：跟进一个商城标签功能</title>
     <link href="http://yoursite.com/2018/09/05/2018-09-05/"/>
     <id>http://yoursite.com/2018/09/05/2018-09-05/</id>
     <published>2018-09-05T12:10:58.000Z</published>
-    <updated>2018-09-05T17:00:22.271Z</updated>
+    <updated>2018-09-05T17:02:59.875Z</updated>
     
-    <content type="html">&lt;h1 id=&quot;跟进一个项目&quot;&gt;&lt;a href=&quot;#跟进一个项目&quot; class=&quot;headerlink&quot; title=&quot;跟进一个项目&quot;&gt;&lt;/a&gt;跟进一个项目&lt;/h1&gt;&lt;p&gt;今天早上到公司时，强哥问我项目今天是否可以正常上线，我十分轻松的说可以。接口已经在136环境下调过，如果发到灰度上，测试一下，上线不是啥大问题吧。&lt;/p&gt;
+    <content type="html">&lt;p&gt;今天早上到公司时，强哥问我项目今天是否可以正常上线，我十分轻松的说可以。接口已经在136环境下调过，如果发到灰度上，测试一下，上线不是啥大问题吧。&lt;/p&gt;
 &lt;p&gt;简单的实现了Weex部分代码后，我就把PC&amp;amp;H5代码发到灰度上了，并做了接口Mock，修复了前端的小问题，然后开始着手来跟进服务端进度。&lt;/p&gt;
 &lt;p&gt;小张第一次做ScalaBPE的项目，所以对于出现的问题也无从下手，但是我尽力协调资源来帮助他，在发现问题、解决问题的过程中，我们还修复了灰度服务器上的hosts缺失问题。尽管如此，今天还是没能上线，甚至测试都没来得及介入。&lt;/p&gt;
 &lt;h3 id=&quot;一天下来有几点想法：&quot;&gt;&lt;a href=&quot;#一天下来有几点想法：&quot; class=&quot;headerlink&quot; title=&quot;一天下来有几点想法：&quot;&gt;&lt;/a&gt;一天下来有几点想法：&lt;/h3&gt;&lt;ol&gt;
@@ -34,7 +34,8 @@
     
     <summary type="html">
     
-      &lt;h1 id=&quot;跟进一个项目&quot;&gt;&lt;a href=&quot;#跟进一个项目&quot; class=&quot;headerlink&quot; title=&quot;跟进一个项目&quot;&gt;&lt;/a&gt;跟进一个项目&lt;/h1&gt;&lt;p&gt;今天早上到公司时，强哥问我项目今天是否可以正常上线，我十分轻松的说可以。接口已经在136环境下调过，如果发
+      &lt;p&gt;今天早上到公司时，强哥问我项目今天是否可以正常上线，我十分轻松的说可以。接口已经在136环境下调过，如果发到灰度上，测试一下，上线不是啥大问题吧。&lt;/p&gt;
+&lt;p&gt;简单的实现了Weex部分代码后，我就把PC&amp;amp;H5代码发到灰度上了，并做了接口Mock，修复了前端的
     
     </summary>
     
