@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-06T16:15:53.109Z</updated>
+  <updated>2018-09-06T16:23:56.082Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,25 +20,25 @@
     <link href="http://yoursite.com/2018/09/06/develop-test-publish-process-specification-in-GMM/"/>
     <id>http://yoursite.com/2018/09/06/develop-test-publish-process-specification-in-GMM/</id>
     <published>2018-09-06T14:35:23.000Z</published>
-    <updated>2018-09-06T16:15:53.109Z</updated>
+    <updated>2018-09-06T16:23:56.082Z</updated>
     
     <content type="html">&lt;blockquote&gt;
 &lt;p&gt;让我们记住我们共同走过的岁月，记住爱，记住时光。 ——弗吉尼亚•伍尔芙&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;2018-09-06，商城标签功能上线啦！不过真的真的太曲折了…&lt;/p&gt;
 &lt;p&gt;磊哥第一时间趁热打铁在下午2点开了项目总结会，主要是介绍产品服务端开发-测试-发布的各个环节需要执行的流程规范。&lt;/p&gt;
-&lt;h2 id=&quot;开发流程规范&quot;&gt;&lt;a href=&quot;#开发流程规范&quot; class=&quot;headerlink&quot; title=&quot;开发流程规范&quot;&gt;&lt;/a&gt;开发流程规范&lt;/h2&gt;&lt;h3 id=&quot;1-一任务一分支&quot;&gt;&lt;a href=&quot;#1-一任务一分支&quot; class=&quot;headerlink&quot; title=&quot;1. 一任务一分支&quot;&gt;&lt;/a&gt;1. 一任务一分支&lt;/h3&gt;&lt;p&gt;特别对于原有的服务端的SVN模块的项目，分支命名需要规范如   gmmbpe-xxxxxx-yyyyMMdd。&lt;/p&gt;
-&lt;h3 id=&quot;2-明确开发范围&quot;&gt;&lt;a href=&quot;#2-明确开发范围&quot; class=&quot;headerlink&quot; title=&quot;2. 明确开发范围&quot;&gt;&lt;/a&gt;2. 明确开发范围&lt;/h3&gt;&lt;p&gt;依赖影响注意确认下，开发人员一定要清楚需求，更应该清楚模块范围及影响范围，做到有的放矢。&lt;/p&gt;
-&lt;h3 id=&quot;3-自测需要保证&quot;&gt;&lt;a href=&quot;#3-自测需要保证&quot; class=&quot;headerlink&quot; title=&quot;3. 自测需要保证&quot;&gt;&lt;/a&gt;3. 自测需要保证&lt;/h3&gt;&lt;p&gt;想法设法尽可能自测，保证代码质量&lt;/p&gt;
-&lt;h2 id=&quot;测试流程规范&quot;&gt;&lt;a href=&quot;#测试流程规范&quot; class=&quot;headerlink&quot; title=&quot;测试流程规范&quot;&gt;&lt;/a&gt;测试流程规范&lt;/h2&gt;&lt;h3 id=&quot;1-提交测试概要&quot;&gt;&lt;a href=&quot;#1-提交测试概要&quot; class=&quot;headerlink&quot; title=&quot;1. 提交测试概要&quot;&gt;&lt;/a&gt;1. 提交测试概要&lt;/h3&gt;&lt;p&gt;包含需求地址，影响模块，各模块分支名， 修改点等简略说明，&lt;strong&gt;一定一定要邮件确认&lt;/strong&gt;&lt;/p&gt;
-&lt;h3 id=&quot;2-测试环境确认&quot;&gt;&lt;a href=&quot;#2-测试环境确认&quot; class=&quot;headerlink&quot; title=&quot;2. 测试环境确认&quot;&gt;&lt;/a&gt;2. 测试环境确认&lt;/h3&gt;&lt;p&gt;多任务并行测试需要协调好测试环境&lt;/p&gt;
-&lt;h3 id=&quot;3-分支部署确认&quot;&gt;&lt;a href=&quot;#3-分支部署确认&quot; class=&quot;headerlink&quot; title=&quot;3. 分支部署确认&quot;&gt;&lt;/a&gt;3. 分支部署确认&lt;/h3&gt;&lt;p&gt;多任务并行测试再确认下需求是否冲突&lt;/p&gt;
-&lt;h3 id=&quot;4-需求功能验证&quot;&gt;&lt;a href=&quot;#4-需求功能验证&quot; class=&quot;headerlink&quot; title=&quot;4. 需求功能验证&quot;&gt;&lt;/a&gt;4. 需求功能验证&lt;/h3&gt;&lt;h3 id=&quot;5-基本回归测试&quot;&gt;&lt;a href=&quot;#5-基本回归测试&quot; class=&quot;headerlink&quot; title=&quot;5. 基本回归测试&quot;&gt;&lt;/a&gt;5. 基本回归测试&lt;/h3&gt;&lt;p&gt;需要覆盖三端首页及游戏列表账号、装备金币、外币寄售行号、点券列表&lt;/p&gt;
-&lt;h2 id=&quot;发布流程规范&quot;&gt;&lt;a href=&quot;#发布流程规范&quot; class=&quot;headerlink&quot; title=&quot;发布流程规范&quot;&gt;&lt;/a&gt;发布流程规范&lt;/h2&gt;&lt;h3 id=&quot;1-发布检查列表&quot;&gt;&lt;a href=&quot;#1-发布检查列表&quot; class=&quot;headerlink&quot; title=&quot;1. 发布检查列表&quot;&gt;&lt;/a&gt;1. 发布检查列表&lt;/h3&gt;&lt;p&gt;网络运维准备、数据库刷表、配置变更执行、online配置文件变更等，&lt;strong&gt;一定一定要邮件确认&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&quot;开发流程规范&quot;&gt;&lt;a href=&quot;#开发流程规范&quot; class=&quot;headerlink&quot; title=&quot;开发流程规范&quot;&gt;&lt;/a&gt;开发流程规范&lt;/h2&gt;&lt;h4 id=&quot;1-一任务一分支&quot;&gt;&lt;a href=&quot;#1-一任务一分支&quot; class=&quot;headerlink&quot; title=&quot;1. 一任务一分支&quot;&gt;&lt;/a&gt;1. 一任务一分支&lt;/h4&gt;&lt;p&gt;特别对于原有的服务端的SVN模块的项目，分支命名需要规范如   gmmbpe-xxxxxx-yyyyMMdd。&lt;/p&gt;
+&lt;h4 id=&quot;2-明确开发范围&quot;&gt;&lt;a href=&quot;#2-明确开发范围&quot; class=&quot;headerlink&quot; title=&quot;2. 明确开发范围&quot;&gt;&lt;/a&gt;2. 明确开发范围&lt;/h4&gt;&lt;p&gt;依赖影响注意确认下，开发人员一定要清楚需求，更应该清楚模块范围及影响范围，做到有的放矢。&lt;/p&gt;
+&lt;h4 id=&quot;3-自测需要保证&quot;&gt;&lt;a href=&quot;#3-自测需要保证&quot; class=&quot;headerlink&quot; title=&quot;3. 自测需要保证&quot;&gt;&lt;/a&gt;3. 自测需要保证&lt;/h4&gt;&lt;p&gt;想法设法尽可能自测，保证代码质量&lt;/p&gt;
+&lt;h2 id=&quot;测试流程规范&quot;&gt;&lt;a href=&quot;#测试流程规范&quot; class=&quot;headerlink&quot; title=&quot;测试流程规范&quot;&gt;&lt;/a&gt;测试流程规范&lt;/h2&gt;&lt;h4 id=&quot;1-提交测试概要&quot;&gt;&lt;a href=&quot;#1-提交测试概要&quot; class=&quot;headerlink&quot; title=&quot;1. 提交测试概要&quot;&gt;&lt;/a&gt;1. 提交测试概要&lt;/h4&gt;&lt;p&gt;包含需求地址，影响模块，各模块分支名， 修改点等简略说明，&lt;strong&gt;一定一定要邮件确认&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;2-测试环境确认&quot;&gt;&lt;a href=&quot;#2-测试环境确认&quot; class=&quot;headerlink&quot; title=&quot;2. 测试环境确认&quot;&gt;&lt;/a&gt;2. 测试环境确认&lt;/h4&gt;&lt;p&gt;多任务并行测试需要协调好测试环境&lt;/p&gt;
+&lt;h4 id=&quot;3-分支部署确认&quot;&gt;&lt;a href=&quot;#3-分支部署确认&quot; class=&quot;headerlink&quot; title=&quot;3. 分支部署确认&quot;&gt;&lt;/a&gt;3. 分支部署确认&lt;/h4&gt;&lt;p&gt;多任务并行测试再确认下需求是否冲突&lt;/p&gt;
+&lt;h4 id=&quot;4-需求功能验证&quot;&gt;&lt;a href=&quot;#4-需求功能验证&quot; class=&quot;headerlink&quot; title=&quot;4. 需求功能验证&quot;&gt;&lt;/a&gt;4. 需求功能验证&lt;/h4&gt;&lt;h4 id=&quot;5-基本回归测试&quot;&gt;&lt;a href=&quot;#5-基本回归测试&quot; class=&quot;headerlink&quot; title=&quot;5. 基本回归测试&quot;&gt;&lt;/a&gt;5. 基本回归测试&lt;/h4&gt;&lt;p&gt;需要覆盖三端首页及游戏列表账号、装备金币、外币寄售行号、点券列表&lt;/p&gt;
+&lt;h2 id=&quot;发布流程规范&quot;&gt;&lt;a href=&quot;#发布流程规范&quot; class=&quot;headerlink&quot; title=&quot;发布流程规范&quot;&gt;&lt;/a&gt;发布流程规范&lt;/h2&gt;&lt;h4 id=&quot;1-发布检查列表&quot;&gt;&lt;a href=&quot;#1-发布检查列表&quot; class=&quot;headerlink&quot; title=&quot;1. 发布检查列表&quot;&gt;&lt;/a&gt;1. 发布检查列表&lt;/h4&gt;&lt;p&gt;网络运维准备、数据库刷表、配置变更执行、online配置文件变更等，&lt;strong&gt;一定一定要邮件确认&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;考虑的地方简直不能太多啦！&lt;/p&gt;
 &lt;p&gt;Nginx(负载，代理), CDN, DB(权限、刷表), 外部依赖服务，应用(服务器IP、端口、内网虚拟域名申请、online配置、redis配置、数据库连接配置、错误码配置、数据库配置变更)&lt;/p&gt;
-&lt;h3 id=&quot;2-灰度tag准备&quot;&gt;&lt;a href=&quot;#2-灰度tag准备&quot; class=&quot;headerlink&quot; title=&quot;2. 灰度tag准备&quot;&gt;&lt;/a&gt;2. 灰度tag准备&lt;/h3&gt;&lt;h3 id=&quot;3-灰度功能验证&quot;&gt;&lt;a href=&quot;#3-灰度功能验证&quot; class=&quot;headerlink&quot; title=&quot;3. 灰度功能验证&quot;&gt;&lt;/a&gt;3. 灰度功能验证&lt;/h3&gt;&lt;h3 id=&quot;4-灰度基本回归&quot;&gt;&lt;a href=&quot;#4-灰度基本回归&quot; class=&quot;headerlink&quot; title=&quot;4. 灰度基本回归&quot;&gt;&lt;/a&gt;4. 灰度基本回归&lt;/h3&gt;&lt;p&gt;需要覆盖三端首页及游戏列表账号、装备金币、外币寄售行号、点券列表&lt;/p&gt;
-&lt;h3 id=&quot;5-正式tag发布&quot;&gt;&lt;a href=&quot;#5-正式tag发布&quot; class=&quot;headerlink&quot; title=&quot;5. 正式tag发布&quot;&gt;&lt;/a&gt;5. 正式tag发布&lt;/h3&gt;&lt;h3 id=&quot;6-正式功能验证&quot;&gt;&lt;a href=&quot;#6-正式功能验证&quot; class=&quot;headerlink&quot; title=&quot;6. 正式功能验证&quot;&gt;&lt;/a&gt;6. 正式功能验证&lt;/h3&gt;&lt;h3 id=&quot;7-报警邮件检查&quot;&gt;&lt;a href=&quot;#7-报警邮件检查&quot; class=&quot;headerlink&quot; title=&quot;7. 报警邮件检查&quot;&gt;&lt;/a&gt;7. 报警邮件检查&lt;/h3&gt;&lt;p&gt;发布完成后需要关注报警邮件&lt;/p&gt;
+&lt;h4 id=&quot;2-灰度tag准备&quot;&gt;&lt;a href=&quot;#2-灰度tag准备&quot; class=&quot;headerlink&quot; title=&quot;2. 灰度tag准备&quot;&gt;&lt;/a&gt;2. 灰度tag准备&lt;/h4&gt;&lt;h4 id=&quot;3-灰度功能验证&quot;&gt;&lt;a href=&quot;#3-灰度功能验证&quot; class=&quot;headerlink&quot; title=&quot;3. 灰度功能验证&quot;&gt;&lt;/a&gt;3. 灰度功能验证&lt;/h4&gt;&lt;h4 id=&quot;4-灰度基本回归&quot;&gt;&lt;a href=&quot;#4-灰度基本回归&quot; class=&quot;headerlink&quot; title=&quot;4. 灰度基本回归&quot;&gt;&lt;/a&gt;4. 灰度基本回归&lt;/h4&gt;&lt;p&gt;需要覆盖三端首页及游戏列表账号、装备金币、外币寄售行号、点券列表&lt;/p&gt;
+&lt;h4 id=&quot;5-正式tag发布&quot;&gt;&lt;a href=&quot;#5-正式tag发布&quot; class=&quot;headerlink&quot; title=&quot;5. 正式tag发布&quot;&gt;&lt;/a&gt;5. 正式tag发布&lt;/h4&gt;&lt;h4 id=&quot;6-正式功能验证&quot;&gt;&lt;a href=&quot;#6-正式功能验证&quot; class=&quot;headerlink&quot; title=&quot;6. 正式功能验证&quot;&gt;&lt;/a&gt;6. 正式功能验证&lt;/h4&gt;&lt;h4 id=&quot;7-报警邮件检查&quot;&gt;&lt;a href=&quot;#7-报警邮件检查&quot; class=&quot;headerlink&quot; title=&quot;7. 报警邮件检查&quot;&gt;&lt;/a&gt;7. 报警邮件检查&lt;/h4&gt;&lt;p&gt;发布完成后需要关注报警邮件&lt;/p&gt;
 &lt;p&gt;​晚安！&lt;/p&gt;
 </content>
     
