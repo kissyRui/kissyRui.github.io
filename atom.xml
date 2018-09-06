@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-06T16:26:05.671Z</updated>
+  <updated>2018-09-06T16:36:44.910Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2018/09/06/develop-test-publish-process-specification-in-GMM/"/>
     <id>http://yoursite.com/2018/09/06/develop-test-publish-process-specification-in-GMM/</id>
     <published>2018-09-06T14:35:23.000Z</published>
-    <updated>2018-09-06T16:26:05.671Z</updated>
+    <updated>2018-09-06T16:36:44.910Z</updated>
     
     <content type="html">&lt;blockquote&gt;
 &lt;p&gt;让我们记住我们共同走过的岁月，记住爱，记住时光。 ——弗吉尼亚•伍尔芙&lt;/p&gt;
@@ -39,6 +39,8 @@
 &lt;p&gt;Nginx(负载，代理), CDN, DB(权限、刷表), 外部依赖服务，应用(服务器IP、端口、内网虚拟域名申请、online配置、redis配置、数据库连接配置、错误码配置、数据库配置变更)&lt;/p&gt;
 &lt;h4 id=&quot;灰度tag准备&quot;&gt;&lt;a href=&quot;#灰度tag准备&quot; class=&quot;headerlink&quot; title=&quot;灰度tag准备&quot;&gt;&lt;/a&gt;灰度tag准备&lt;/h4&gt;&lt;h4 id=&quot;灰度功能验证&quot;&gt;&lt;a href=&quot;#灰度功能验证&quot; class=&quot;headerlink&quot; title=&quot;灰度功能验证&quot;&gt;&lt;/a&gt;灰度功能验证&lt;/h4&gt;&lt;h4 id=&quot;灰度基本回归&quot;&gt;&lt;a href=&quot;#灰度基本回归&quot; class=&quot;headerlink&quot; title=&quot;灰度基本回归&quot;&gt;&lt;/a&gt;灰度基本回归&lt;/h4&gt;&lt;p&gt;需要覆盖三端首页及游戏列表账号、装备金币、外币寄售行号、点券列表&lt;/p&gt;
 &lt;h4 id=&quot;正式tag发布&quot;&gt;&lt;a href=&quot;#正式tag发布&quot; class=&quot;headerlink&quot; title=&quot;正式tag发布&quot;&gt;&lt;/a&gt;正式tag发布&lt;/h4&gt;&lt;h4 id=&quot;正式功能验证&quot;&gt;&lt;a href=&quot;#正式功能验证&quot; class=&quot;headerlink&quot; title=&quot;正式功能验证&quot;&gt;&lt;/a&gt;正式功能验证&lt;/h4&gt;&lt;h4 id=&quot;报警邮件检查&quot;&gt;&lt;a href=&quot;#报警邮件检查&quot; class=&quot;headerlink&quot; title=&quot;报警邮件检查&quot;&gt;&lt;/a&gt;报警邮件检查&lt;/h4&gt;&lt;p&gt;发布完成后需要关注报警邮件&lt;/p&gt;
+&lt;p&gt;最后附上一张会议图&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://limingbo.com/res/image/dev_test_publish.jpg&quot; alt=&quot;白板流程图&quot;&gt;&lt;/p&gt;
 &lt;p&gt;​晚安！&lt;/p&gt;
 </content>
     
