@@ -261,6 +261,129 @@
             
               
                 
+                <a class="post-title-link" href="/2018/09/07/renew-a-contact/" itemprop="url">
+                  三年到期再续约-盛大游戏
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2018-09-07T13:29:00+08:00" content="2018-09-07">
+              2018-09-07
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/百家/" itemprop="url" rel="index">
+                    <span itemprop="name">百家</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                &nbsp; | &nbsp;
+                <a href="/2018/09/07/renew-a-contact/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2018/09/07/renew-a-contact/" itemprop="commentsCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>接到人事专员的通知，下午要去续签合同，然后跑到海趣路58号一号楼总部大楼去填合同，花了半个小时去填一大堆合同材料。</p>
+<p>内心里是什么感觉，真的是五味杂陈，最好的青春已经留在这里了，真的不知道该说些什么。</p>
+<p>我算是第二次进入盛大游戏了，三年间最大的感概是物是人非。一批批人走，又一批批人进来，慢慢的我也变成了老员工，真的太难想象了，13年那时候几乎是团队最小的我居然也变成老人了！！时间都去哪里了？我真的不相信时间的力量是如此强大。</p>
+<p>我希望接下来在盛大的时光里能更加有价值，更加美好～</p>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
                 <a class="post-title-link" href="/2018/09/06/develop-test-publish-process-specification-in-GMM/" itemprop="url">
                   开发/测试/发布流程规范 in GMM
                 </a>
@@ -1221,9 +1344,9 @@
             <blockquote>
 <p>在使用React中 如果使用ES6的Class extends写法 如果onClick绑定一个方法 需要bind(this)，而使用React.createClass方法 就不需要，请问这是为什么呢？</p>
 </blockquote>
-<h2 id="第一种写法"><a href="#第一种写法" class="headerlink" title="第一种写法"></a>第一种写法</h2><p>这种方式直接写在绑定事件处，不是特别优雅<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">_handleClick(e) &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="keyword">this</span>);</span><br><span class="line">&#125;</span><br><span class="line">render() &#123;</span><br><span class="line">    <span class="keyword">return</span> (</span><br><span class="line">        &lt;div&gt;</span><br><span class="line">            &lt;h1 onClick=&#123;this._handleClick.bind(this)&#125;&gt;点击&lt;/h1&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">    );</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<h2 id="第二种写法"><a href="#第二种写法" class="headerlink" title="第二种写法"></a>第二种写法</h2><p>这种方式其实还行，但在构造函数中多加了一行，不是很精简<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">constructor</span>(props) &#123;</span><br><span class="line">    <span class="keyword">super</span>(props);</span><br><span class="line">    <span class="keyword">this</span>._handleClick = <span class="keyword">this</span>._handleClick.bind(<span class="keyword">this</span>)</span><br><span class="line">&#125;</span><br><span class="line">_handleClick(e) &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="keyword">this</span>);</span><br><span class="line">&#125;</span><br><span class="line">render() &#123;</span><br><span class="line">    <span class="keyword">return</span> (</span><br><span class="line">        &lt;div&gt;</span><br><span class="line">            &lt;h1 onClick=&#123;this._handleClick&#125;&gt;点击&lt;/h1&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">    );</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
-<h2 id="第三种写法"><a href="#第三种写法" class="headerlink" title="第三种写法"></a>第三种写法</h2><p>使用箭头函数轻松搞定，既优雅又精简，强烈推荐使用<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">_handleClick = (e) =&gt; &#123;</span><br><span class="line">    <span class="comment">// 使用箭头函数(arrow function)</span></span><br><span class="line">    <span class="built_in">console</span>.log(<span class="keyword">this</span>);</span><br><span class="line">&#125;</span><br><span class="line">render() &#123;</span><br><span class="line">    <span class="keyword">return</span> (</span><br><span class="line">        &lt;div&gt;</span><br><span class="line">            &lt;h1 onClick=&#123;this._handleClick&#125;&gt;点击&lt;/h1&gt;</span><br><span class="line">        &lt;/div&gt;</span><br><span class="line">    );</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h2 id="第一种写法"><a href="#第一种写法" class="headerlink" title="第一种写法"></a>第一种写法</h2><p>这种方式直接写在绑定事件处，不是特别优雅<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">_handleClick(e) &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="keyword">this</span>);</span><br><span class="line">&#125;</span><br><span class="line">render() &#123;</span><br><span class="line">    <span class="keyword">return</span> (</span><br><span class="line">        <span class="xml"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">h1</span> <span class="attr">onClick</span>=<span class="string">&#123;this._handleClick.bind(this)&#125;</span>&gt;</span>点击<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line">    );</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h2 id="第二种写法"><a href="#第二种写法" class="headerlink" title="第二种写法"></a>第二种写法</h2><p>这种方式其实还行，但在构造函数中多加了一行，不是很精简<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">constructor</span>(props) &#123;</span><br><span class="line">    <span class="keyword">super</span>(props);</span><br><span class="line">    <span class="keyword">this</span>._handleClick = <span class="keyword">this</span>._handleClick.bind(<span class="keyword">this</span>)</span><br><span class="line">&#125;</span><br><span class="line">_handleClick(e) &#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="keyword">this</span>);</span><br><span class="line">&#125;</span><br><span class="line">render() &#123;</span><br><span class="line">    <span class="keyword">return</span> (</span><br><span class="line">        <span class="xml"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">h1</span> <span class="attr">onClick</span>=<span class="string">&#123;this._handleClick&#125;</span>&gt;</span>点击<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line">    );</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h2 id="第三种写法"><a href="#第三种写法" class="headerlink" title="第三种写法"></a>第三种写法</h2><p>使用箭头函数轻松搞定，既优雅又精简，强烈推荐使用<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">_handleClick = (e) =&gt; &#123;</span><br><span class="line">    <span class="comment">// 使用箭头函数(arrow function)</span></span><br><span class="line">    <span class="built_in">console</span>.log(<span class="keyword">this</span>);</span><br><span class="line">&#125;</span><br><span class="line">render() &#123;</span><br><span class="line">    <span class="keyword">return</span> (</span><br><span class="line">        <span class="xml"><span class="tag">&lt;<span class="name">div</span>&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">h1</span> <span class="attr">onClick</span>=<span class="string">&#123;this._handleClick&#125;</span>&gt;</span>点击<span class="tag">&lt;/<span class="name">h1</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span></span><br><span class="line">    );</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 
           
         
@@ -1383,169 +1506,13 @@
 
 
     
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/05/14/What-I-Do-In-Past-Five-Years/" itemprop="url">
-                  做前端，已五年
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-05-14T23:54:47+08:00" content="2016-05-14">
-              2016-05-14
-            </time>
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/05/14/What-I-Do-In-Past-Five-Years/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/05/14/What-I-Do-In-Past-Five-Years/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <blockquote>
-<p>Think Different, Do Great</p>
-</blockquote>
-<h2 id="我的大学"><a href="#我的大学" class="headerlink" title="我的大学"></a>我的大学</h2><p>大学里其实对前端有一些想法，学了Ps，jQuery，Css等。<br>主要学了不少关于Flash As3的东西，以为会很火，结果乔帮主说，Flash终将死去，然后我就忍痛放弃了。</p>
-<h2 id="2011年5月20日［喜团网］"><a href="#2011年5月20日［喜团网］" class="headerlink" title="2011年5月20日［喜团网］"></a>2011年5月20日［喜团网］</h2><p>对我来说，这是一个不同寻常的日子。我入职了一家叫<a href="http://sh.xituan.com/" target="_blank" rel="external">喜团网</a>的团购网站，当时正是千团大战时，当时前端开发岗位也略热。<br>遇到了淘宝前端大牛玉伯开发的<a href="http://docs.kissyui.com/" target="_blank" rel="external">kissy</a>框架，该框架第一次让我认识到前端也可以有封装良好的UI和业务组件。<br>当时遇到了两个前端前辈黄兄和虫哥，并受益匪浅。<br>三个月后，团购网站激烈的竞争导致喜团资金链出问题，大家频频离职：黄兄去了淘宝网，虫哥去了支付宝。我经过黄兄介绍，让我去点评网试试。</p>
-<h2 id="2011年11月1日［大众点评］"><a href="#2011年11月1日［大众点评］" class="headerlink" title="2011年11月1日［大众点评］"></a>2011年11月1日［大众点评］</h2><p>这天入职大众点评网，开始了近两年的前端光阴。<br>当时的点评产品分为两个线：主站和点评团购，APP还是九宫格。<br>这是一个仅有9个前端攻城狮的O2O公司，团购业务只有2个前端来负责跟进迭代，由于团购的激烈竞争，点评也加大了团购产品的投入，所以我被分配到了团购前端小组。<br>当时团购用的框架是<a href="http://mootools.net/" target="_blank" rel="external">Mootools</a>，一个产品最初的前端框架都是很仓促的，一般是根据执行者对框架的熟悉程度定的。Mootools是一个不错的库，代码质量很不错，写起来很有原生的感觉。<br>点评团主站页面很多了，随着多人开发模式的业务特点，点评前端架构师<a href="http://www.infoq.com/cn/news/2013/09/dazhongdianping-front-end-dev/" target="_blank" rel="external">张颖</a>正着力开发一个AMD标准的库NeuronJs<br>2012年上半年，<a href="http://t.dianping.com/shanghai" target="_blank" rel="external">团购站</a>需要从.Net迁移到java，我和另外一个伙伴就利用这个契机完成了站点从Mootools到Neuron的代码迁移。<br>下半年，随着手机应用的增多，超哥启动了一个新的项目（点评触屏版）单独让我负责。我记得当时我们用的还是Wap，基本上没啥JS代码。<br>但是对H5还不是很了解，硬着头皮上，当时选择了小巧的Zepto移动框架，之前我写HTML不是特别多，但这个项目结构样式都由我来写，所以相对来说，我接触H5算是比较早的，遇到的坑也是蛮多的，市面上各种低端机，什么魅族M8，索爱LT系列，苹果4等等。<br>后来基本上线后，又开始了<a href="http://m.dianping.com/tuan" target="_blank" rel="external">触屏版团购版</a>和<a href="https://mlogin.dianping.com/login?redir=http://m.dianping.com/tuan/receiptlist?st=1" target="_blank" rel="external">用户登录注册模块</a>，但相对顺手了一些，不过跨团队工作也蛮辛苦的。<br>2013年春站点又经历了三四次功能和UI迭代开发，当时自己负责的业务模块有：</p>
-<ul>
-<li><a href="http://t.dianping.com/shanghai" target="_blank" rel="external">团购个人中心</a></li>
-<li><a href="https://e.dianping.com/" target="_blank" rel="external">团购验券商户平台</a></li>
-<li><a href="http://m.dianping.com/tuan/" target="_blank" rel="external">团购触屏版</a></li>
-<li><a href="http://m.dianping.com" target="_blank" rel="external">主站触屏版</a></li>
-<li><a href="https://mlogin.dianping.com/login/password" target="_blank" rel="external">点评登录注册模块触屏版</a></li>
-<li>后来又有新的项目立项，自己又承担了<a href="http://www.dianping.com/coupon/shanghai" target="_blank" rel="external">点评优惠券</a>及其新的优惠券管理平台的开发。</li>
-</ul>
-<p>2013年年初和年中，面对每天这么多同步的开发，而且跨部门，跨楼层的沟通，对自己是一个极大的考验，我试着把自己每一天的工作都列出来，然后一项项完成打勾，尽管如此，有些产品线还是有些delay了时间。<br>当时我定在十月份结婚，七八月份时候跟爱人沟通少了很多，面对爱人的抱怨，我开始反思自己的问题；虽然工作很重要，自己也愿意给自己一些压力，可是工作不是一切，生活和感情也是至关重要的，我选择离开点评，我选择一份专门做移动H5的工作。回望过去，我在点评这段时光恰恰是成长的一段时光。</p>
-<h2 id="2013年8月6日［盛大游戏］"><a href="#2013年8月6日［盛大游戏］" class="headerlink" title="2013年8月6日［盛大游戏］"></a>2013年8月6日［盛大游戏］</h2><p>我对盛大游戏充满很深的感情，盛大见证了我的婚姻，也见证了我家<a href="http://gracer-lyl.github.io/code/works/liveapp/babyapp.html" target="_blank" rel="external">童童的出生</a>。<br>2013年8月6日，我进入盛大，在老曹的手下做H5前端，刚来的时候就遇到了<a href="http://we.sdoprofile.com/common/js/test/" target="_blank" rel="external">WE框架</a>，我不能不说这是个很不错的流程类的框架，依赖jQuery和requireJs两个类库，对于流程的理解和组件的处理方式至今让我觉得还是很先进。这个框架也可以移植在很多应用环境中，但是对于UI的处理分离度不够，对于移动端改造有些问题。<br>话说，当时9月份就遇到了一个项目，G家商城H5版本，这个项目也许是我在盛大的第一个H5作品，而且是被派到技保中心来开发，作为一个小型商城，也没有采用过于复杂的框架，为了考虑以后的扩展性及其组件上的积累，使用了<a href="http://seajs.org/docs/" target="_blank" rel="external">Seajs</a>+zepto<br>后来部门搬到了3楼南，在2014年的一年里，我记不清到底做了多少个项目了：</p>
-<ul>
-<li>跟陈洋一起折腾<a href="http://act.g.sdo.com/ff/static/music/index.html#/" target="_blank" rel="external">FF14各种活动</a>，才知道不折腾下就不知道自己能力在哪里</li>
-<li>跟佩佩、亚平、龙哥一起做G家APP内部运营活动，才知道移动H5开发合作的不易与做活动所需要的耐心</li>
-<li>跟传君一起做<a href="http://act.cc.sdo.com/project/CCActive/index1.html" target="_blank" rel="external">锁链战记</a>等手游活动，才知道有时候加班也是没办法的办法</li>
-<li>跟夔叔一起做<a href="http://navi.g.sdo.com/" target="_blank" rel="external">G家通用导航条</a>，才知道让别人用起来爽，自己多写点代码没啥</li>
-<li>跟神父一起做<a href="http://gracer-lyl.github.io/code/works/activityapp/hjbapp.html" target="_blank" rel="external">红金宝活动</a>，才知道运营其实也蛮考验人的，需要很严谨，很认真</li>
-</ul>
-<p>等等…<br>一幕幕恰如昨日发生，记忆犹新。<br>这一年显得忙碌又充实，在参考别人的同时，更新自己的技术，玩过AngularJS，响应式，Css3动画，Less，Sass，Grunt，Gulp一系列新的东西，受益匪浅。<br>我就简单记录下跟陈洋在一起的岁月里做过啥东西吧。</p>
-<ul>
-<li><a href="http://act.g.sdo.com/ff/static/concert/index.html" target="_blank" rel="external">FF14公测（音乐厅）微信宣传</a></li>
-<li><a href="http://act.g.sdo.com/ff/static/music/index.html#/" target="_blank" rel="external">FF14中国上市发布会（音乐厅）微信宣传</a></li>
-<li><a href="http://h5.g.sdo.com/event/ff14.html" target="_blank" rel="external">FF14中国上市发布会</a></li>
-<li><a href="http://act.g.sdo.com/ff/static/man_share_3.html" target="_blank" rel="external">FF14手机端入口</a></li>
-<li><a href="http://act.g.sdo.com/ff/static/football.html" target="_blank" rel="external">FF14中奖购买资格（阿根廷对战荷兰）</a></li>
-<li><a href="http://act.g.sdo.com/ff/static/football2.html" target="_blank" rel="external">FF14中奖购买资格（阿根廷对战德国）</a></li>
-<li><a href="http://act.g.sdo.com/ff/static/man2.html" target="_blank" rel="external">FF14G家专属渠道（半决赛和决赛获资格者）</a></li>
-<li><a href="http://act.g.sdo.com/ff/static/man3.html" target="_blank" rel="external">FF14开放性测试资格购买</a></li>
-<li><a href="http://act.g.sdo.com/ff/static/man4.html" target="_blank" rel="external">FF14免费体验5小时活动</a></li>
-<li><a href="http://act.g.sdo.com/ff/man2" target="_blank" rel="external">FF14二测资格独家预售</a></li>
-<li><a href="http://act.g.sdo.com/ff/man3" target="_blank" rel="external">FF14大丈夫资格</a></li>
-<li><a href="http://task.g.sdo.com/activity/ff14" target="_blank" rel="external">FF14水晶之旅北京站微信推广</a></li>
-<li><a href="http://act.g.sdo.com/ff/intro" target="_blank" rel="external">FF14首测抽取激活码首测推广</a></li>
-<li><a href="http://act.g.sdo.com/ff/index" target="_blank" rel="external">FF14激活码抽奖大转盘活动</a></li>
-</ul>
-<h2 id="2015年1月9号［房金所］"><a href="#2015年1月9号［房金所］" class="headerlink" title="2015年1月9号［房金所］"></a>2015年1月9号［房金所］</h2><p>2015年还没过年，就在一个不合适的时间点去了一家P2P公司－<a href="https://fangjs.sina.com.cn/" target="_blank" rel="external">房金所</a>，在这家公司好像一切都要从头开始搞：</p>
-<ul>
-<li>先是后台管理采用了<a href="http://www.requirejs.cn/" target="_blank" rel="external">requirejs</a>的改进，大大提升了使用体验</li>
-<li><a href="https://fangjs.sina.com.cn/mobile/" target="_blank" rel="external">H5移动触屏版</a>（将来的App版本），面对自己熟悉的框架，我选择了没有接触过的Reactjs+Flux，还有新认识的朋友Webpack；这个项目做下来感觉还是很花精力的，不过对于Store的处理，个人还是觉得Flux做得不到位，后来又改成了Redux框架</li>
-<li>主站要全面改版，当时遇到了<a href="http://fis.baidu.com/" target="_blank" rel="external">百度团队的FIS</a>，很棒的一个东西，它采用了commonjs的方式来写浏览器代码，很多优秀的特性；对于这次架构和各个模块的处理，感觉还是不错的</li>
-<li>搞了几次特别的理财和抽奖活动</li>
-</ul>
-<h2 id="2015年8月9日［盛大游戏］"><a href="#2015年8月9日［盛大游戏］" class="headerlink" title="2015年8月9日［盛大游戏］"></a>2015年8月9日［盛大游戏］</h2><p>我又回到了盛大游戏，内心倍感温暖！<br>完成了一系列站点的响应式改造，由于现在比较流行采用Commonjs的规范，所以整体都采用这个，就像写Nodejs一样写浏览器端代码。</p>
-<ul>
-<li><a href="http://www.sdo.com/" target="_blank" rel="external">SDO官网</a></li>
-<li><a href="http://i.sdo.com/#routeto=info" target="_blank" rel="external">通行证的PC/响应式</a>同步改造</li>
-<li>实现了We的初步响应式</li>
-<li><a href="http://dn.sdo.com/web10/index/index.html" target="_blank" rel="external">公共导航</a></li>
-<li>盛大游戏WEB版<a href="http://login.sdo.com/sdo/Login/LoginSDO.php?appId=991002500&amp;areaId=1&amp;service=http%3A%2F%2Fi.sdo.com%2F%23routeto%3Dinfo" target="_blank" rel="external">登录</a>、<a href="http://register.sdo.com/register/index?appId=89&amp;cssId=ff" target="_blank" rel="external">注册</a>改版</li>
-<li>参与了<a href="http://www.shandagames.com/web/index.html" target="_blank" rel="external">盛大游戏官网</a></li>
-<li>游戏详情页如<a href="http://www.sdo.com/gameDetail?appid=991000801" target="_blank" rel="external">血族</a></li>
-<li>手游的头部Pc和移动导航条如<a href="http://blood.sdo.com/web2/index/" target="_blank" rel="external">血族</a></li>
-<li>开发了微信账号管理和角色管理项目，升级了we为Mobile We（简单介绍下Mobile We的角色管理）<br>正在进行时…</li>
-</ul>
-<p>最近在研究React Native，希望能够用在公司产品上<br>做前端这么多年，说实话很喜欢，这里充满变化，充满惊喜，充满挑战<br>现在大多数公司又比较重视用户体验<br>自己能做的就是不断学习，跟得上技术更新的潮流，最最重要的是要学有所用才能真才实学。<br>如何成为优秀的前端呢？其实我有个比较好的前端朋友-<a href="https://100offer.com/blog/posts/138" target="_blank" rel="external">寸志</a>，可以了解下他。<br>谢谢大家！</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
   </section>
 
   
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+  </nav>
+
 
 
           </div>
@@ -1584,7 +1551,7 @@
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
-              <span class="site-state-item-count">10</span>
+              <span class="site-state-item-count">11</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
