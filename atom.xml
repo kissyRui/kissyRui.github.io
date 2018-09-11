@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-09-08T14:56:43.546Z</updated>
+  <updated>2018-09-11T16:11:40.256Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>论程序员的开发效率</title>
+    <link href="http://yoursite.com/2018/09/11/thinking-in-productivity/"/>
+    <id>http://yoursite.com/2018/09/11/thinking-in-productivity/</id>
+    <published>2018-09-11T14:53:18.000Z</published>
+    <updated>2018-09-11T16:11:40.256Z</updated>
+    
+    <content type="html">&lt;p&gt;今天让Android小刘处理一些一个相对比较容易的项目，按照我的理解是半个小时内处理完都有可能，他竟然来了一句：我没法同时进行两个项目。我有种说不出的感觉，现在团队的老员工咋变成低效率的开发者了？&lt;/p&gt;
+&lt;p&gt;我大概列了几点原因：&lt;/p&gt;
+&lt;h4 id=&quot;1-长期同一时间处理一个项目，导致惯性思维&quot;&gt;&lt;a href=&quot;#1-长期同一时间处理一个项目，导致惯性思维&quot; class=&quot;headerlink&quot; title=&quot;1. 长期同一时间处理一个项目，导致惯性思维&quot;&gt;&lt;/a&gt;1. 长期同一时间处理一个项目，导致惯性思维&lt;/h4&gt;&lt;h4 id=&quot;2-对自己没有特别大的信心&quot;&gt;&lt;a href=&quot;#2-对自己没有特别大的信心&quot; class=&quot;headerlink&quot; title=&quot;2. 对自己没有特别大的信心&quot;&gt;&lt;/a&gt;2. 对自己没有特别大的信心&lt;/h4&gt;&lt;h4 id=&quot;3-不愿升级自己的电脑硬件&quot;&gt;&lt;a href=&quot;#3-不愿升级自己的电脑硬件&quot; class=&quot;headerlink&quot; title=&quot;3. 不愿升级自己的电脑硬件&quot;&gt;&lt;/a&gt;3. 不愿升级自己的电脑硬件&lt;/h4&gt;&lt;h4 id=&quot;4-不愿采用vscode等轻量级的编辑器&quot;&gt;&lt;a href=&quot;#4-不愿采用vscode等轻量级的编辑器&quot; class=&quot;headerlink&quot; title=&quot;4. 不愿采用vscode等轻量级的编辑器&quot;&gt;&lt;/a&gt;4. 不愿采用vscode等轻量级的编辑器&lt;/h4&gt;&lt;h4 id=&quot;5-工作的热情不够&quot;&gt;&lt;a href=&quot;#5-工作的热情不够&quot; class=&quot;headerlink&quot; title=&quot;5. 工作的热情不够&quot;&gt;&lt;/a&gt;5. 工作的热情不够&lt;/h4&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;今天让Android小刘处理一些一个相对比较容易的项目，按照我的理解是半个小时内处理完都有可能，他竟然来了一句：我没法同时进行两个项目。我有种说不出的感觉，现在团队的老员工咋变成低效率的开发者了？&lt;/p&gt;
+&lt;p&gt;我大概列了几点原因：&lt;/p&gt;
+&lt;h4 id=&quot;1-长期同一时间
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>今天比你想象中更短</title>
